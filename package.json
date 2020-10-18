@@ -1,0 +1,19 @@
+{
+  "name": "aja-doc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Dan Michael Heggø",
+    "email": "dan.michael.heggo@bibsent.no"
+  },
+  "repository": "https://gitlab.com/bibsent/aja-doc",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
