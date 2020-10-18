@@ -11,9 +11,12 @@ pages:
   stage: deploy
   script:
     - npm run build
+    # Per https://gitlab.com/gitlab-org/gitlab/-/issues/1719#note_24326702
+    - mkdir public
+    - mv docs/.vuepress/dist/* public/ 
   artifacts:
     paths:
-    - docs/.vuepress/dist
+    - public
   rules:
     - if: '$CI_COMMIT_BRANCH == "master"'
 
