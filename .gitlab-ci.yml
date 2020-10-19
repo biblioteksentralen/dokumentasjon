@@ -11,7 +11,7 @@ pages:
   stage: deploy
   script:
     - npm run build
-    # Per https://gitlab.com/gitlab-org/gitlab/-/issues/1719#note_24326702
+    # Per https://gitlab.com/gitlab-org/gitlab/-/issues/1719#note_30008931
     - mkdir public
     - mv docs/.vuepress/dist/* public/ 
   artifacts:

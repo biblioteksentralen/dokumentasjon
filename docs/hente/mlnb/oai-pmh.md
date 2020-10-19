@@ -1,7 +1,7 @@
 # OAI-PMH
 
-Katalogposter for Nasjonalbibliotekets metadataleveranse kan høstes med [OAI-PMH 2.0]( http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) fra endepunktet
-[`https://aja.bs.no/mlnb/oai`](https://aja.bs.no/mlnb/oai).
+Katalogposter for Nasjonalbibliotekets metadataleveranse kan høstes med OAI-PMH 2.0 fra endepunktet
+[`https://catmandu.aja.bs.no/mlnb/oai`](https://catmandu.aja.bs.no/mlnb/oai).
 
 ## Parametre
 
@@ -9,8 +9,8 @@ Katalogposter for Nasjonalbibliotekets metadataleveranse kan høstes med [OAI-PM
 
 Følgende verdier er støttet: 
 
-* [`marc21`](https://catmandu.aja-test.bibbi.dev/mlnb/oai?verb=ListRecords&metadataPrefix=marc21) gir fullstendige MARC21-poster i [MarcXchange 1.1](https://www.loc.gov/standards/iso25577/marcxchange-1-1.xsd)
-* [`oai_dc`](https://catmandu.aja-test.bibbi.dev/mlnb/oai?verb=ListRecords&metadataPrefix=oai_dc) gir grunnleggende Dublin Core-poster. Eksperimentelt.
+* [`marc21`](https://catmandu.aja.bs.no/mlnb/oai?verb=ListRecords&metadataPrefix=marc21) gir fullstendige MARC21-poster i MarcXchange 1.1.
+* [`oai_dc`](https://catmandu.aja.bs.no/mlnb/oai?verb=ListRecords&metadataPrefix=oai_dc) gir grunnleggende Dublin Core-poster. Eksperimentelt.
 
 Tjenesten leverer ikke NORMARC.
 
@@ -23,7 +23,7 @@ Tjenesten har foreløpig ingen sett, men vi legger gjerne til noen hvis det er �
 Det er mulig å hente poster som har blitt opprettet eller oppdatert innenfor et bestemt tidsintervall ved å bruke `from` (startdato) og/eller `until` (sluttdato, inklusiv).
 For eksempel kan du hente ut alle poster fra 1. november 2020 slik:
 
-> https://catmandu.aja-test.bibbi.dev/mlnb/oai?verb=ListRecords&metadataPrefix=marc21&from=2020-11-01&until=2020-11-01
+> https://catmandu.aja.bs.no/mlnb/oai?verb=ListRecords&metadataPrefix=marc21&from=2020-11-01&until=2020-11-01
 
 ## Slettede poster
 

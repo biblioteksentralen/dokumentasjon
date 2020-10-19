@@ -4,12 +4,10 @@
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
     <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
-
+      <div class="imageContainer">
+        <RandomImage :images="data.images" />
+      </div>
+      
       <!--
       <h1
         v-if="data.heroText !== null"
@@ -17,9 +15,6 @@
       >
         {{ data.heroText || $title || 'Hello' }}
       </h1>
-
-     
-
       -->
 
       <p
@@ -93,11 +88,14 @@ export default {
   display block
   .hero
     text-align center
-    img
-      max-width: 100%
-      max-height 280px
-      display block
+    .imageContainer
+      height 280px
       margin 3rem auto 1.5rem
+      img
+        max-width: 100%
+        height 280px
+        margin 0 auto
+        display block
     h1
       font-size 3rem
     h1, .description, .action
@@ -159,9 +157,12 @@ export default {
     padding-left 1.5rem
     padding-right 1.5rem
     .hero
-      img
-        max-height 210px
+      .imageContainer
+        height 210px
         margin 2rem auto 1.2rem
+        img
+          height 210px
+          margin 0 auto
       h1
         font-size 2rem
       h1, .description, .action

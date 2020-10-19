@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+const moment = require('moment')
 
 module.exports = {
 
@@ -66,8 +67,8 @@ module.exports = {
     lastUpdated: 'Sist oppdatert',
     nav: [
       {
-        text: 'Kontakt oss',
-        link: '/kontakt/',
+        text: 'Problemer? Spørsmål? Ønsker?',
+        link: '/hei.html',
       },
       // {
       //   text: 'Config',
@@ -153,5 +154,14 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          moment.locale(lang)
+          return moment(timestamp).fromNow()
+        }
+      }
+    ],
   ]
 }

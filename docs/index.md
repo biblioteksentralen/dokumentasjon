@@ -1,6 +1,10 @@
 ---
 home: true
-heroImage: ./undraw_reading_time_gvg0.svg
+images:
+  - src: ./undraw_reading_time_gvg0.svg
+    alt: Illustrasjonsbilde - menneske som leer
+  - src: ./undraw_Master_plan_re_jvit.svg
+    alt: Illustrasjonsbilde - menneske som tenker
 tagline: Dokumentasjon for datatjenester fra Biblioteksentralen(s metadatabrønn)
 actions:
   - text: Hente data →
