@@ -1,3 +1,0 @@
-# Omslagsbilder
-
-TODO

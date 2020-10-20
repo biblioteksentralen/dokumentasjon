@@ -1,11 +1,12 @@
 ---
 home: true
 images:
+  # Fargekode: #e65741
   - src: ./undraw_reading_time_gvg0.svg
     alt: Illustrasjonsbilde - menneske som leer
   - src: ./undraw_Master_plan_re_jvit.svg
     alt: Illustrasjonsbilde - menneske som tenker
-tagline: Dokumentasjon for datatjenester fra Biblioteksentralen(s metadatabrønn)
+tagline: Dokumentasjon for datatjenester fra Biblioteksentralens metadatabrønn
 actions:
   - text: Hente data →
     link: /hente/

@@ -1,7 +1,5 @@
 # Hente data fra Biblioteksentralen
 
-[KLADD]
-
 Her finner du informasjon om hvordan du kan hente data fra Biblioteksentralen.
 
 ## Bibliografiske data
@@ -13,4 +11,4 @@ Bibliografiske data kan hentes fra oss gjennom to kanaler:
 
 ## Autoritetsdata
 
-[KOMMER]
+[Informasjon om kontrollerte vokabular kommer]

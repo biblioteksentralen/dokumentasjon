@@ -72,7 +72,3 @@ Flere eksempler:
 
 * /fuzzy
 * sortKeys
-
-### Oppsett i biblioteksystemer
-
-TODO

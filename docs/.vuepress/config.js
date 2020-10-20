@@ -104,6 +104,7 @@ module.exports = {
     sidebar: [
       {
         title: 'Hente data',
+        collapsable: false,
         path: '/hente/',
         children: [
           {
@@ -113,13 +114,16 @@ module.exports = {
             children: [
               '/hente/mlnb/oai-pmh',
               '/hente/mlnb/sru',
-              // '/hente/mlnb/oai-pmh',
-              '/hente/mlnb/omslagsbilder',
             ]
           },
           {
             path: '/hente/bibbi-abb/',
             title: 'Bibbi-abonnement',
+            children: []
+          },
+          {
+            path: '/hente/omslagsbilder',
+            title: 'Omslagsbilder',
             children: []
           }
         ],

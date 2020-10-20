@@ -1,3 +1,3 @@
 # Levere data til Biblioteksentralen
 
-Blablabla
+Her kommer det informasjon om hvordan du kan levere data til Aja.
