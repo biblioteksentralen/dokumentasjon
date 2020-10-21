@@ -3,7 +3,7 @@
 ## SRU
 
 Katalogposter for Nasjonalbibliotekets metadataleveranse kan søkes i gjennom en tjeneste som følger SRU 1.1-standarden,
-åpent tilgjengelig på [`https://catmandu.aja.bs.no/mlnb/sru`](https://catmandu.aja.bs.no/mlnb/sru).
+åpent tilgjengelig på [`https://sru.aja.bs.no/mlnb`](https://sru.aja.bs.no/mlnb).
 
 ::: warning Omfang
 SRU-tjenesten for metadataleveransen søker i katalogposter katalogisert fra 1. november 2020.
@@ -14,7 +14,7 @@ Vi håper vi kan tilby en større mengde åpne data i fremtiden.
 ### Parametre
 
 * `operation`: Alle SRU-operasjonene støttes.
-* `query`: Oversikt over indekser finnes under, samt i maskinlesbar form i [Explain-responsen](https://catmandu.aja.bs.no/mlnb/sru?operation=explain).
+* `query`: Oversikt over indekser finnes under, samt i maskinlesbar form i [Explain-responsen](https://sru.aja.bs.no/mlnb?operation=explain).
 * `version` (valgfri): Kun versjon 1.1 er støttet.
 * `recordSchema` (valgfri): Kun verdien `marc21` er støttet.
 * `recordPacking` (valgfri): Kun verdien `xml` er støttet.
@@ -24,8 +24,8 @@ Tjenesten støtter vanlig paginering, men ikke [persistente resultatmengder](htt
 
 
 ::: tip Eksempler
-* Fritekstsøk i alle indekser: https://catmandu.aja.bs.no/mlnb/sru?operation=searchRetrieve&query=øyehaug
-* Søk etter isbn: https://catmandu.aja.bs.no/mlnb/sru?operation=searchRetrieve&query=isbn=9788245601985
+* Fritekstsøk i alle indekser: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=øyehaug
+* Søk etter isbn: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=isbn=9788245601985
 :::
 
 ::: details Avvik fra SRU Base Profile og NorZIG-profilen
@@ -53,8 +53,8 @@ Tjenesten har følgende kjente avvik fra [NorZIG Profile for SRU](http://norzig.
 
 CQL-indeksnavn | Feltbeskrivelse | Eksempler
 ----|----|----
-(ingen) / cql.serverChoice | Alle felt | [øyehaug](https://catmandu.aja.bs.no/mlnb/sru?operation=searchRetrieve&query=øyehaug)<br>[cql.serverChoice=øyehaug](https://catmandu.aja.bs.no/mlnb/sru?operation=searchRetrieve&query=cql.serverChoice=øyehaug)
-rec.identifier | Bibbi-ID for posten. | [rec.identifier=123](https://catmandu.aja.bs.no/mlnb/sru?operation=searchRetrieve&recordSchema=marc21&query=rec.identifier=123)
+(ingen) / cql.serverChoice | Alle felt | [øyehaug](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=øyehaug)<br>[cql.serverChoice=øyehaug](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=cql.serverChoice=øyehaug)
+rec.identifier | Bibbi-ID for posten. | [rec.identifier=123](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&recordSchema=marc21&query=rec.identifier=123)
 dc.identifier | Enten ISBN eller Bibbi-ID. | -
 dc.language | Språkkode, fra 041$h | -
 dc.date | Utgivelsesår (fra 008[7-10]) | -
