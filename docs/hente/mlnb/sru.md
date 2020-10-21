@@ -1,6 +1,4 @@
-
-
-## SRU
+# SRU
 
 Katalogposter for Nasjonalbibliotekets metadataleveranse kan søkes i gjennom en tjeneste som følger SRU 1.1-standarden,
 åpent tilgjengelig på [`https://sru.aja.bs.no/mlnb`](https://sru.aja.bs.no/mlnb).
@@ -11,7 +9,7 @@ For å søke i eldre poster trenger du et [Bibbi-abonnement](../bibbi-abb).
 Vi håper vi kan tilby en større mengde åpne data i fremtiden.
 :::
 
-### Parametre
+## Parametre
 
 * `operation`: Alle SRU-operasjonene støttes.
 * `query`: Oversikt over indekser finnes under, samt i maskinlesbar form i [Explain-responsen](https://sru.aja.bs.no/mlnb?operation=explain).
@@ -49,7 +47,7 @@ Tjenesten har følgende kjente avvik fra [NorZIG Profile for SRU](http://norzig.
 :::
 
 
-### Søkeindekser
+## Søkeindekser
 
 CQL-indeksnavn | Feltbeskrivelse | Eksempler
 ----|----|----
