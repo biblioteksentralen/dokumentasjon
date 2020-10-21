@@ -44,16 +44,16 @@ Tjenesten har følgende kjente avvik fra [NorZIG Profile for SRU](http://norzig.
 4 | Indexes and modifiers from other context sets that must be supported. | Søk med modifikatorer (`bib.classAuthority`, `bib.role`, `bib.identifierAuthority` eller `bib.subjectAuthority`) er ikke støttet. Det er noe vi vurderer å legge til hvis det kan utnyttes i biblioteksystemene.
   | | Indeksen `bib.materialType` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC21-poster.
   | | Indeksen `bib.audience` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC21-poster.
+  | | Indeksen `norzig.possessingInstitution` virker ikke relevant på bibliografisk nivå.
 :::
-
 
 ## Søkeindekser
 
-CQL-indeksnavn | Feltbeskrivelse | Eksempler
+CQL-indeksnavn | Feltbeskrivelse | Eksempel
 ----|----|----
-(ingen) / cql.serverChoice | Alle felt | [øyehaug](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=øyehaug)<br>[cql.serverChoice=øyehaug](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=cql.serverChoice=øyehaug)
-rec.identifier | Bibbi-ID for posten. | [rec.identifier=123](https://sru.aja.bs.no/mlnb?operation=searchRetrieve&recordSchema=marc21&query=rec.identifier=123)
-dc.identifier | Enten ISBN eller Bibbi-ID. | -
+(ingen) / cql.serverChoice | Alle felt | <sru-example base="mlnb" query="hva er klima" />
+rec.identifier | Bibbi-ID for posten. | <sru-example base="mlnb" query="rec.identifier=0598523" />
+dc.identifier | Enten ISBN eller Bibbi-ID. | <sru-example base="mlnb" query="dc.identifier=9788215*" />
 dc.language | Språkkode, fra 041$h | -
 dc.date | Utgivelsesår (fra 008[7-10]) | -
 dc.title | Tittel | -
