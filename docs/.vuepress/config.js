@@ -11,7 +11,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  //title: 'Aja',
+  //title: 'Ája',
 
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
@@ -39,7 +39,7 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'nb', // this will be set as the lang attribute on <html>
-      title: 'Aja',
+      title: 'Ája',
       description: 'Datatjenester fra Biblioteksentralen',
     },
   },
