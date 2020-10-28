@@ -13,7 +13,7 @@ Eksempel:
         <subfield code="a">aja.bs.no</subfield>
         <subfield code="3">Omslagsbilde</subfield>
         <subfield code="u">https://aja.bs.no/0540be13-d29b-526f-9f7c-360381274a6c/cover/large.jpg​​​​​​​​​​​​​​</subfield>
-        <subfield code="n">Biblioteksentralen Ája</subfield>
+        <subfield code="n">Biblioteksentralen, Oslo</subfield>
         <subfield code="q">image/jpeg</subfield>
     </datafield>
 
@@ -21,6 +21,6 @@ Eksempel:
         <subfield code="a">aja.bs.no</subfield>
         <subfield code="3">Miniatyrbilde</subfield>
         <subfield code="u">https://aja.bs.no/0540be13-d29b-526f-9f7c-360381274a6c/cover/medium.jpg​​​​​​​​​​​​​​</subfield>
-        <subfield code="n">Biblioteksentralen Ája</subfield>
+        <subfield code="n">Biblioteksentralen, Oslo</subfield>
         <subfield code="q">image/jpeg</subfield>
     </datafield>
