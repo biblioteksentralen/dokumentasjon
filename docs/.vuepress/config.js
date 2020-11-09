@@ -125,7 +125,12 @@ module.exports = {
             path: '/hente/omslagsbilder',
             title: 'Omslagsbilder',
             children: []
-          }
+          },
+          {
+            path: '/hente/bibbi-autoriteter/',
+            title: 'Autoritetsdata',
+            children: []
+          },
         ],
       },
       {
