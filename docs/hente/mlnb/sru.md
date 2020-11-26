@@ -74,6 +74,7 @@ Tabellen under viser de viktigste søkeindeksene som støttes.
 | norzig.nationality                    | Verdi fra Biblioteksentralens liste over nasjonaliteter [LENKE].                                                | <sru-example base="mlnb" query="norzig.nationality=am." />                         |
 | bs.updated_at                         | Oppdateringsdato (`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
 | bs.set                                | Samlingskode, har alltid verdien `"mlnb"`.                                                                      | <sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" />                        |
+| bs.level                              | Beskrivelsesnivå (fra `LDR/17`): "full" for fullstendige poster (# eller 1), "preliminary" for forhåndsposter (5). | <sru-example base="mlnb" query="bs.level=&quot;preliminary&quot;" />          |
 
 [1] Personer (X00) og snart korporasjoner (X10) kommer med identifikatorer fra [Felles autoritetsregister](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/felles-autoritetsregister-for-personer-og-korporasjoner/),
 mens generelle emneord (X50) og stedsnavn (X51) kommer med identifikatorer fra [Bibbi autoriteter](/hente/bibbi-autoriteter).
