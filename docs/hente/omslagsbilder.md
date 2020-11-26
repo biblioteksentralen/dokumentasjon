@@ -1,11 +1,11 @@
 # Omslagsbilder
 
-URL-er til omslagsbilder leveres med MARC21-postene i to størrelser:
+URL-er til omslagsbilder leveres normalt med MARC21-postene i to størrelser:
 
 * Originalbilde (`$3 Omslagsbilde`)
-* Miniatyrbilde (`$3 Miniatyrbilde`) med høyde 450px
+* Miniatyrbilde (`$3 Miniatyrbilde`) med høyde opptil 450px
 
-Bildene kan være mindre hvis vi har fått tak i større filer.
+Miniatyrbilde følger ikke med posten i tilfeller der vi ikke har fått tillatelse fra forlaget til å generere og distribuere dette.
 
 Eksempel:
 
