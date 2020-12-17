@@ -1,14 +1,8 @@
 # Kontakt oss
 
-Har du spørsmål eller ønsker om hvordan du kan hente eller levere data? 
-Eller er det noe som ikke funker som det skal?
-Du når oss på
+Ája er Biblioteksentralens eksperimentelle metadatabrønn, hvor vi gradvis kommer til å samle og dele mer og mer metadata.
+Vi vil gjerne høre fra deg hvis du har spørsmål eller ønsker om hvordan du kan hente eller levere data.
+Eller hvis du har tilbakemeldinger på kvaliteten på metadataposter generelt eller en bestemt post.
+Du når oss enklest via
 
-<Mailto :address="['kundeservice', 'bibsent.no']" subject="Spørsmål om metadatatjenester" />
-
-Hvis du har tilbakemeldinger på kvaliteten på MARC-postene eller en bestemt post, kan du også kontakte
-
-...
-
-
-Ansvarlig for denne siden er ...
+<Mailto :address="['kundeservice', 'bibsent.no']" />
