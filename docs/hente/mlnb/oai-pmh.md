@@ -10,7 +10,7 @@ Katalogposter for Nasjonalbibliotekets metadataleveranse kan høstes med OAI-PMH
 Følgende verdier er støttet: 
 
 * [`marc21`](https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=marc21) gir fullstendige [MARC 21](https://www.loc.gov/marc/bibliographic/)-poster i MarcXchange 1.1.
-* [`mods`](https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=mods) gir [MODS](http://www.loc.gov/standards/mods/)-poster, konvertert fra MARC21-postene.
+* [`mods`](https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=mods) gir [MODS](http://www.loc.gov/standards/mods/)-poster, konvertert fra MARC 21-postene.
 * [`oai_dc`](https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=oai_dc) gir grunnleggende Dublin Core-poster. Eksperimentelt.
 
 Tjenesten leverer ikke NORMARC.
