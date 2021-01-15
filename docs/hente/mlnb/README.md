@@ -4,7 +4,7 @@ Fra 1. november 2020 leverer Biblioteksentralen åpne bibliografiske data for Na
 
 ## Hvordan kan dataene hentes?
 
-Bibliografiske data i form av MARC21-katalogposter er tilgjengelige via standardiserte programmeringsgrensesnitt (API-er).
+Bibliografiske data i form av MARC 21-katalogposter er tilgjengelige via standardiserte programmeringsgrensesnitt (API-er).
 Data kan høstes via [OAI-PMH](./oai-pmh.md) eller søkes i via [SRU](./sru.md).
 
 Lenker til [omslagsbilder](../omslagsbilder.md) leveres i katalogpostene.
