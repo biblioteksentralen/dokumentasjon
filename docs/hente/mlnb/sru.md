@@ -44,8 +44,8 @@ Tjenesten har følgende kjente avvik fra [NorZIG Profile for SRU](http://norzig.
 | 2.  | Must choose `cql.anyIndexes` as the default index when responding to term-only CQL queries.                                              | Vår tjeneste bruker `cql.serverChoice`, som i [CQL Context Set version 1.2](http://www.loc.gov/standards/sru/cql/contextSets/cql-context-set-v1-2.html#indexes) er et alias for `cql.anyIndexes`.                |
 | 3.  | Must support the full [NorZIG context set](http://norzig.no/cql/norzig/1.1/).                                                            | Søk med modifikator (`bib.role`) er ikke støttet. Det er noe vi vurderer å legge til hvis det kan utnyttes i biblioteksystemene.                                                                                 |
 | 4.  | Indexes and modifiers from other context sets that must be supported.                                                                    | Søk med modifikatorer (`bib.classAuthority`, `bib.role`, `bib.identifierAuthority` eller `bib.subjectAuthority`) er ikke støttet. Det er noe vi vurderer å legge til hvis det kan utnyttes i biblioteksystemene. |
-|     | Indeksen `bib.materialType` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC21-poster.             |
-|     | Indeksen `bib.audience` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC21-poster.                 |
+|     | Indeksen `bib.materialType` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC 21-poster.             |
+|     | Indeksen `bib.audience` er foreløpig ikke støttet fordi det ikke er avklart hvordan denne skal brukes med MARC 21-poster.                 |
 |     | Indeksen `norzig.possessingInstitution` virker ikke relevant på bibliografisk nivå.                                                      |
 
 :::
