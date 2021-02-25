@@ -32,6 +32,7 @@ Eksempel:
 Som følge av [MARC Proposal No. 2020-03](https://loc.gov/marc/mac/2020/2020-03.html) kommer vi til å fjerne `$n` fra 1. april 2021.
 Vi ønsket egentlig å samtidig fjerne `$a`, siden denne er ment brukt for ressurser som ikke har en URL i `$u`,
 men det var ønske fra Unit (via NB) om å beholde denne, så vi venter med å fjerne den.
+Fra 1. april 2021 vil feltene derfor se slik ut:
 
 ```xml
 <datafield tag="856" ind1="4" ind2="1">
