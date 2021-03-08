@@ -72,9 +72,13 @@ Tabellen under viser de viktigste søkeindeksene som støttes.
 | dc.creator / norzig.creatorNormalized | Forfattere og andre ansvarshavere (`1XX`, `7XX`).                                                               | <sru-example base="mlnb" query="dc.creator all &quot;Ole Peder Giæver&quot;" />    |
 | norzig.personalNameNormalized         | Personnavn (`100` og `700`)                                                                                     | -                                                                                  |
 | norzig.nationality                    | Verdi fra Biblioteksentralens liste over nasjonaliteter [LENKE].                                                | <sru-example base="mlnb" query="norzig.nationality=am." />                         |
-| bs.updated_at                         | Oppdateringsdato (`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
-| bs.set                                | Samlingskode, har alltid verdien `"mlnb"`.                                                                      | <sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" />                        |
+| bs.electronic                         | `1` for elektroniske ressurser (`007/0="c"`) som e-bøker, e-lydbøker, videospill osv., `0` for fysiske ressurser. | <sru-example base="mlnb" query="bs.electronic=1" />
+| bs.has_cover                          | `1` for ressurser som har omslagsbilder (865), `0` for ressurser som ikke har det.                            | <sru-example base="mlnb" query="bs.has_cover = 0" />                    |
 | bs.level                              | Beskrivelsesnivå (fra `LDR/17`): "full" for fullstendige poster (# eller 1), "preliminary" for forhåndsposter (5). | <sru-example base="mlnb" query="bs.level=&quot;preliminary&quot;" />          |
+| bs.resource_type                      | Ressurstype/materialtype avledet fra `LDR/6`, `007/0-1` og `008/26`: "book", "audiobook", "video", "videogame". Kan kombineres med `bs.electronic` for å skille mellom elektroniske og fysiske ressurser.             | <sru-example base="mlnb" query="bs.resource_type=&quot;book&quot; AND bs.electronic=0" />          |
+| bs.set                                | Samlingskode, har alltid verdien `"mlnb"`.                                                                      | <sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" />                        |
+| bs.updated_at                         | Oppdateringsdato (`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
+
 
 [1] Personer (X00) og snart korporasjoner (X10) kommer med identifikatorer fra [Felles autoritetsregister](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/felles-autoritetsregister-for-personer-og-korporasjoner/),
 mens generelle emneord (X50) og stedsnavn (X51) kommer med identifikatorer fra [Bibbi autoriteter](/hente/bibbi-autoriteter).
