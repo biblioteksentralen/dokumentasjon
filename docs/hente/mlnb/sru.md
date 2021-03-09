@@ -59,7 +59,7 @@ Tabellen under viser de viktigste søkeindeksene som støttes.
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | (ingen) / cql.serverChoice            | Alle felt                                                                                                       | <sru-example base="mlnb" query="&quot;speilet og lyset&quot;" />                   |
 | rec.identifier                        | Lokal identifikator (Bibbi-ID)                                                                                  | <sru-example base="mlnb" query="rec.identifier=0588861" />                         |
-| rec.modified                         | Tidsstempel da posten sist ble endret(`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
+| rec.modified                         | Tidsstempel da posten sist ble endret(`005`)                                                                                        | <sru-example base="mlnb" query="rec.modified >= 2020-11-10" />                    |
 | dc.identifier                         | ISBN eller Bibbi-ID                                                                                             | <sru-example base="mlnb" query="dc.identifier=97882419*" />                        |
 | dc.language                           | Språkkode (`041$h`)                                                                                             | <sru-example base="mlnb" query="dc.language=nno" />                                |
 | dc.date                               | Utgivelsesår (`008[7-10]`)                                                                                      | <sru-example base="mlnb" query="dc.date=2020" />                                   |
@@ -113,11 +113,11 @@ Merk at søketermen ikke kan *begynne* med jokertegn.
 `sortKeys` kan brukes med flere av indeksene for å sortere resultatsettet.
 Stigende rekkefølge er standard, så for å hente de eldste postene:
 
-<sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" sortKeys="bs.updated_at" />
+<sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" sortKeys="rec.modified" />
 
 Legg på `,,0` for synkende rekkefølge (nyeste poster først):
 
-<sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" sortKeys="bs.updated_at,,0" />
+<sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" sortKeys="rec.modified,,0" />
 
 Mer informasjon om sortKeys finnes i [SRU-dokumentasjonen til LC](https://www.loc.gov/standards/sru/sru-1-1.html#sort).
 Merk at vi ikke støtter nøklene `schema`, `caseSensitive` eller `missingValue`.
