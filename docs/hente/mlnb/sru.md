@@ -59,6 +59,7 @@ Tabellen under viser de viktigste søkeindeksene som støttes.
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | (ingen) / cql.serverChoice            | Alle felt                                                                                                       | <sru-example base="mlnb" query="&quot;speilet og lyset&quot;" />                   |
 | rec.identifier                        | Lokal identifikator (Bibbi-ID)                                                                                  | <sru-example base="mlnb" query="rec.identifier=0588861" />                         |
+| rec.modified                         | Tidsstempel da posten sist ble endret(`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
 | dc.identifier                         | ISBN eller Bibbi-ID                                                                                             | <sru-example base="mlnb" query="dc.identifier=97882419*" />                        |
 | dc.language                           | Språkkode (`041$h`)                                                                                             | <sru-example base="mlnb" query="dc.language=nno" />                                |
 | dc.date                               | Utgivelsesår (`008[7-10]`)                                                                                      | <sru-example base="mlnb" query="dc.date=2020" />                                   |
@@ -77,8 +78,6 @@ Tabellen under viser de viktigste søkeindeksene som støttes.
 | bs.level                              | Beskrivelsesnivå (fra `LDR/17`): "full" for fullstendige poster (# eller 1), "preliminary" for forhåndsposter (5). | <sru-example base="mlnb" query="bs.level=&quot;preliminary&quot;" />          |
 | bs.resource_type                      | Ressurstype/materialtype avledet fra `LDR/6`, `007/0-1` og `008/26`: "book", "audiobook", "video", "videogame", "other". Kan kombineres med `bs.electronic` for å skille mellom elektroniske og fysiske ressurser.             | <sru-example base="mlnb" query="bs.resource_type=&quot;book&quot; AND bs.electronic=false" />          |
 | bs.set                                | Samlingskode, har alltid verdien `"mlnb"`.                                                                      | <sru-example base="mlnb" query="bs.set=&quot;mlnb&quot;" />                        |
-| bs.updated_at                         | Oppdateringsdato (`005`)                                                                                        | <sru-example base="mlnb" query="bs.updated_at >= 2020-11-10" />                    |
-
 
 [1] Personer (X00) og snart korporasjoner (X10) kommer med identifikatorer fra [Felles autoritetsregister](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/felles-autoritetsregister-for-personer-og-korporasjoner/),
 mens generelle emneord (X50) og stedsnavn (X51) kommer med identifikatorer fra [Bibbi autoriteter](/hente/bibbi-autoriteter).
