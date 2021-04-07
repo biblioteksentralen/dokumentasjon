@@ -17,14 +17,15 @@ Vi håper vi kan tilby en større mengde åpne data i fremtiden.
 - `version` (valgfri): Kun versjon 1.1 er støttet.
 - `recordSchema` (valgfri): Verdiene `marc21`, `mods` og `dc` er støttet.
 - `recordPacking` (valgfri): Kun verdien `xml` er støttet.
+- `startRecord` (valgfri): Første post som skal returneres fra treffmengden. Standardverdien er 1.
 - `maximumRecords` (valgfri): Antall poster som leveres om gangen. Standarverdien er 10. Kan økes til maks 500.
 
-Tjenesten støtter vanlig paginering, men ikke [persistente resultatmengder](https://www.loc.gov/standards/sru/sru-1-2.html#resultsets).
+Tjenesten støtter vanlig paginering (med bruk av `startRecord`), men ikke [persistente resultatmengder](https://www.loc.gov/standards/sru/sru-1-2.html#resultsets).
 
 ::: tip Eksempler
 
 - Fritekstsøk i alle indekser: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=Žižek
-- Søk etter isbn: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=isbn=9788256022779
+- Søk etter isbn: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=dc.identifier=9788293718246
 
 :::
 
