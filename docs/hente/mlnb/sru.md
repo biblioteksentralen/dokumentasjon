@@ -15,7 +15,11 @@ Vi håper vi kan tilby en større mengde åpne data i fremtiden.
 - `query`: [CQL](https://www.loc.gov/standards/sru/cql/spec.html)-spørring. Oversikt over indekser og relasjoner finnes under.
 - `sortKeys` (valgfri): Indeks som resultatene sorteres etter.
 - `version` (valgfri): Kun versjon 1.1 er støttet.
-- `recordSchema` (valgfri): Verdiene `marc21`, `mods` og `dc` er støttet.
+- `recordSchema` (valgfri): Følgende skjemaer er støttet:
+   - `marc21` (standard): [MARC 21](https://www.loc.gov/marc/bibliographic/) som følger [MarcXchange 1.1](http://www.loc.gov/standards/iso25577/) 
+   - `marc21nor`: MARC 21 med ekstra lokale felt 019 og 9XX fra BSMARC. Dette er et skjema vi støtter i en overgangsperiode etter ønske fra biblioteksystemleverandørene. Skjemaet planlegges å fjernes fra tjenesten 31. desember 2022.
+   - `mods`: [MODS](https://www.loc.gov/standards/mods/) konvertert fra MARC 21 etter Library of Congress sitt [mappingskjema](https://www.loc.gov/standards/mods/mods-mapping.html)
+   - `dc`: Svært grunnleggende [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/).
 - `recordPacking` (valgfri): Kun verdien `xml` er støttet.
 - `startRecord` (valgfri): Første post som skal returneres fra treffmengden. Standardverdien er 1.
 - `maximumRecords` (valgfri): Antall poster som leveres om gangen. Standarverdien er 10. Kan økes til maks 500.
