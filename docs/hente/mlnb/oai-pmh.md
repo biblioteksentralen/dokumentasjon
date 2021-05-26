@@ -22,11 +22,13 @@ Tjenesten har foreløpig ingen sett, men vi legger gjerne til noen hvis det er �
 
 ### `from` / `until`
 
-Det er mulig å hente poster som har blitt opprettet eller oppdatert innenfor et bestemt tidsintervall ved å bruke `from` (startdato) og/eller `until` (sluttdato, inklusiv).
-For eksempel kan du hente ut alle poster fra 13. november 2020 slik:
+Høstingen kan avgrenses til poster som har blitt oppdatert innenfor et bestemt tidsintervall ved hjelp av `from` (startdato) og/eller `until` (sluttdato, inklusiv).
+Eksempel: For å hente ut alle poster som ble oppdatert 1. april 2021:
 
-> https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=marc21&from=2020-11-13&until=2020-11-13
+> https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=marc21&from=2020-04-01&until=2020-04-01
+
+Avgrensningen baserer seg på verdien i `005`-feltet i MARC-posten.
 
 ## Slettede poster
 
-Tjenesten holder oversikt over sletting av poster. Eventuelle slettede poster returneres med `status="deleted"` per [2.5.1 Deleted records](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#deletion) i OAI-PMH-standarden.
+Tjenesten holder oversikt over sletting av poster. Slettede poster returneres med `status="deleted"` per [2.5.1 Deleted records](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#deletion) i OAI-PMH-standarden.
