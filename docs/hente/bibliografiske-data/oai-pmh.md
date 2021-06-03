@@ -1,8 +1,18 @@
+---
+permalink: /hente/bibliografiske-data/oai-pmh.html
+redirectFrom: 
+  - /hente/mlnb/oai-pmh.html
+---
 # OAI-PMH
 
-Katalogposter for Nasjonalbibliotekets metadataleveranse kan høstes med OAI-PMH 2.0 fra endepunktet
-[`https://oai.aja.bs.no/mlnb`](https://oai.aja.bs.no/mlnb).
+OAI-PMH 2.0-tjenesten vår leverer to datastrømmer:
 
+- [`https://oai.aja.bs.no/mlnb`](https://oai.aja.bs.no/mlnb) er et åpent endepunkt for bibliografiske poster frikjøpt gjennom [Nasjonalbibliotekets metadataleveranse](./mlnb).
+
+- [`https://oai.aja.bs.no/bibbi`](https://oai.aja.bs.no/bibbi) er
+et tilgangsbegrenset endepunkt som gir tilgang til hele Bibbi-katalogen for [abonnenter på Bibbi-data](https://www.bibsent.no/metadata/abonnement-paa-bibbi-data).
+
+Det er ingen forskjeller i innholdet i postene fra de to endepunktene.
 ## Parametre
 
 ### `metadataPrefix`

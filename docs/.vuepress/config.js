@@ -103,23 +103,27 @@ module.exports = {
 
     sidebar: [
       {
+        path: '/hente/',
         title: 'Hente data',
         collapsable: false,
-        path: '/hente/',
         children: [
           {
-            path: '/hente/mlnb/',
-            title: 'NBs metadataleveranse',
+            path: '/hente/bibliografiske-data/',
+            title: 'Bibliografiske data',
             collapsable: false,
             children: [
-              '/hente/mlnb/oai-pmh',
-              '/hente/mlnb/sru',
+              '/hente/bibliografiske-data/mlnb',
+              '/hente/bibliografiske-data/oai-pmh',
+              '/hente/bibliografiske-data/sru',
+              {
+                path: '/hente/bibliografiske-data/endringer/',
+                title: 'Endringer',
+                children: [
+                  '/hente/bibliografiske-data/endringer/2021-06-04-ntsf',
+                  '/hente/bibliografiske-data/endringer/2021-06-04-produksjonsland',
+                ],
+              },
             ]
-          },
-          {
-            path: '/hente/bibbi-abb/',
-            title: 'Bibbi-abonnement',
-            children: []
           },
           {
             path: '/hente/omslagsbilder',
@@ -127,7 +131,7 @@ module.exports = {
             children: []
           },
           {
-            path: '/hente/bibbi-autoriteter/',
+            path: '/hente/autoritetsdata/',
             title: 'Autoritetsdata',
             children: []
           },
@@ -161,8 +165,9 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    //'@vuepress/plugin-back-to-top',
+    //'@vuepress/plugin-medium-zoom',
+    'redirect-frontmatter',
     [
       '@vuepress/last-updated',
       {
@@ -172,5 +177,5 @@ module.exports = {
         }
       }
     ],
-  ]
+  ],
 }

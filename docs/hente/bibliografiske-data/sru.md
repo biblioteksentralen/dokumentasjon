@@ -1,13 +1,19 @@
+---
+permalink: /hente/bibliografiske-data/sru.html
+redirectFrom: 
+  - /hente/mlnb/sru.html
+---
 # SRU
 
-Katalogposter for Nasjonalbibliotekets metadataleveranse kan søkes i gjennom en tjeneste som følger SRU 1.1-standarden,
-åpent tilgjengelig på [`https://sru.aja.bs.no/mlnb`](https://sru.aja.bs.no/mlnb).
+SRU 1.1-tjenesten vår leverer to datastrømmer:
 
-::: warning Omfang
-SRU-tjenesten for metadataleveransen søker i katalogposter katalogisert fra 1. november 2020.
-For å søke i eldre poster trenger du et [Bibbi-abonnement](../bibbi-abb).
-Vi håper vi kan tilby en større mengde åpne data i fremtiden.
-:::
+- [`https://sru.aja.bs.no/mlnb`](https://sru.aja.bs.no/mlnb) er et åpent endepunkt for bibliografiske poster frikjøpt gjennom [Nasjonalbibliotekets metadataleveranse](./mlnb),
+det vil si poster for materiale utgitt i Norge siden 1. november 2020.
+
+- [`https://sru.aja.bs.no/bibbi`](https://sru.aja.bs.no/bibbi) er
+et tilgangsbegrenset endepunkt som gir tilgang til hele Bibbi-katalogen for [abonnenter på Bibbi-data](https://www.bibsent.no/metadata/abonnement-paa-bibbi-data).
+
+Det er ingen forskjeller i innholdet i postene en får fra de to endepunktene.
 
 ## Parametre
 

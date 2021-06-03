@@ -1,3 +1,6 @@
 # Levere data til Biblioteksentralen
 
-Her kommer det informasjon om hvordan du kan levere data til Ája.
+Som forlag kan du levere metadata for utgivelser til Biblioteksentralen kostnadsfritt.
+Data sendes til bsforlagsdata@bibsent.no
+
+Bruk gjerne [Excel-malen vår](/vedlegg/mal-utgivelser-versjon1.xlsx) hvis du har mulighet til det.
