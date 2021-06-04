@@ -14,7 +14,7 @@ Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
 [Les mer…](./2021-06-04-ntsf)
 
 
-## [Prodduksjonsland for filmer](./2021-06-04-produksjonsland)
+## [Produksjonsland for filmer](./2021-06-04-produksjonsland)
 
 2021-06-04
 
