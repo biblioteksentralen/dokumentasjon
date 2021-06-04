@@ -1,6 +1,7 @@
 # Levere data til Biblioteksentralen
 
-Som forlag kan du levere metadata for utgivelser til Biblioteksentralen kostnadsfritt.
-Data sendes til bsforlagsdata@bibsent.no
+Som forlag kan du levere metadata for nyutgivelser til Biblioteksentralen kostnadsfritt.
 
-Bruk gjerne [Excel-malen vår](/vedlegg/mal-utgivelser-versjon1.xlsx) hvis du har mulighet til det.
+Data i form av Excel-filer eller lignende kan sendes til [bsforlagsdata@bibsent.no](mailto:bsforlagsdata@bibsent.no). Bruk gjerne [Excel-malen vår](/vedlegg/mal-utgivelser-v5.xlsx) hvis du har mulighet til det.
+
+Ta kontakt med [bsforlagsdata@bibsent.no](mailto:bsforlagsdata@bibsent.no) hvis du har et API vi kan hente data fra.
