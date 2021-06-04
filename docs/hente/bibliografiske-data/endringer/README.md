@@ -1,8 +1,8 @@
 # Endringer
 
 Her beskriver vi større endringer i leveransen av bibliografiske data.
-Større og mindre endringer annonseres også på e-postlisten 
-bibbisnakk@liste.bibsent.no
+Større og mindre endringer annonseres også på e-postlisten bibbisnakk@liste.bibsent.no.
+For å melde deg på lista, send en e-post til Kjersti: <kfm@bibsent.no>).
 
 ## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
 
