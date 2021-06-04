@@ -2,7 +2,7 @@
 
 Her beskriver vi større endringer i leveransen av bibliografiske data.
 Større og mindre endringer annonseres også på e-postlisten 
-bibbisnakk@bibsent.no (?)
+bibbisnakk@liste.bibsent.no
 
 ## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
 
