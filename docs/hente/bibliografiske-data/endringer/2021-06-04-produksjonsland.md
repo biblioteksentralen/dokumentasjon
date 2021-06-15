@@ -20,7 +20,7 @@ Med den nye praksisen blir det i stedet uttrykt slik:
 655 $a Animasjonsfilmer $0 (NO-OsBA)1165840 $2 bibbi
 ```
 
-Alle eksisterende poster i Bibbi-katalogen vil bli oppdatert, så det vil være mulig å hente oppdaterte utgaver fra
-[SRU](/hente/bibliografiske-data/sru.html) og [OAI-PMH](/hente/bibliografiske-data/oai-pmh.html)-tjenestene våre (,samt fra Bibbi-basen?).
+Alle eksisterende poster i Bibbi-katalogen vil bli oppdatert i løpet av uke 24, så det vil være mulig å hente oppdaterte utgaver fra
+[SRU](/hente/bibliografiske-data/sru.html) og [OAI-PMH](/hente/bibliografiske-data/oai-pmh.html)-tjenestene våre,samt fra Bibbi-basen (Mikromarc).
 
 For en oversikt over alle filmsjangre som brukes av Biblioteksentralen i dag, se [Biblioteksentralens vokabulartjeneste](https://id.bs.no/bibbi/group/efbe2d4b-b3de-4194-b069-b764b1333a23).
