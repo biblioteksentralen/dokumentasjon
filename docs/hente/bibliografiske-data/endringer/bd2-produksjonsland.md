@@ -1,6 +1,13 @@
-# Produksjonsland for filmer (257 i MARC 21)
+---
+permalink: /hente/bibliografiske-data/endringer/bd2-produksjonsland
+redirectFrom: 
+  - /hente/bibliografiske-data/endringer/2021-06-04-produksjonsland
+  - /hente/bibliografiske-data/endringer/2021-06-04-produksjonsland.html
+---
 
-2021-06-04
+# BD2: Produksjonsland for filmer
+
+Publisert: 2021-06-04
 
 Vi har tidligere registrert produksjonsland som del av form/sjangerstreng for enkelte overordnede filmsjangre, 
 men går nå over til å registrere dette som en egen egenskap, som blir eksportert til 
@@ -20,7 +27,7 @@ Med den nye praksisen blir det i stedet uttrykt slik:
 655 $a Animasjonsfilmer $0 (NO-OsBA)1165840 $2 bibbi
 ```
 
-Alle eksisterende poster i Bibbi-katalogen vil bli oppdatert i løpet av uke 24, så det vil være mulig å hente oppdaterte utgaver fra
-[SRU](/hente/bibliografiske-data/sru.html) og [OAI-PMH](/hente/bibliografiske-data/oai-pmh.html)-tjenestene våre,samt fra Bibbi-basen (Mikromarc).
+Alle eksisterende poster i Bibbi-katalogen har blitt oppdatert, og vil snart bli eksportert (dato kommer) så det vil være mulig å hente oppdaterte utgaver fra
+[SRU](/hente/bibliografiske-data/sru.html) og [OAI-PMH](/hente/bibliografiske-data/oai-pmh.html)-tjenestene våre,samt fra Bibbi-basen (Mikromarc) og MARC 21-fellesbasen i Bibliofil.
 
 For en oversikt over alle filmsjangre som brukes av Biblioteksentralen i dag, se [Biblioteksentralens vokabulartjeneste](https://id.bs.no/bibbi/group/efbe2d4b-b3de-4194-b069-b764b1333a23).

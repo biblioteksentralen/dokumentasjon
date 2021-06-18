@@ -119,8 +119,8 @@ module.exports = {
                 path: '/hente/bibliografiske-data/endringer/',
                 title: 'Endringer',
                 children: [
-                  '/hente/bibliografiske-data/endringer/2021-06-04-ntsf',
-                  '/hente/bibliografiske-data/endringer/2021-06-04-produksjonsland',
+                  '/hente/bibliografiske-data/endringer/bd1-ntsf',
+                  '/hente/bibliografiske-data/endringer/bd2-produksjonsland',
                 ],
               },
             ]

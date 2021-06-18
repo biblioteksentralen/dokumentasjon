@@ -1,8 +1,16 @@
-# Overgang til Norsk tesaurus for sjanger og form (NTSF)
+---
+permalink: /hente/bibliografiske-data/endringer/bd1-ntsf
+redirectFrom: 
+  - /hente/bibliografiske-data/endringer/2021-06-04-ntsf
+  - /hente/bibliografiske-data/endringer/2021-06-04-ntsf.html
+---
 
-2021-06-04 (Oppdatert 2021-06-17)
+# BD1: Overgang til Norsk tesaurus for sjanger og form (NTSF)
 
-Vi har nå gått over fra å beskrive form/sjanger med begreper fra 
+Publisert: 2021-06-04  
+Oppdatert:  2021-06-18
+
+Vi går over fra å beskrive form/sjanger med begreper fra 
 [Bibbi autoriteter](/hente/autoritetsdata) til å bruke begreper fra 
 [Norsk tesaurus for sjanger og form](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/vokabularer-utkast/felles-autoritetsregister-for-personer-og-korporasjoner/) (NTSF).
 
