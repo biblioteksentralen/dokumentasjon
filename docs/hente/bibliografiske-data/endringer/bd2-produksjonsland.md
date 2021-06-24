@@ -1,10 +1,3 @@
----
-permalink: /hente/bibliografiske-data/endringer/bd2-produksjonsland
-redirectFrom: 
-  - /hente/bibliografiske-data/endringer/2021-06-04-produksjonsland
-  - /hente/bibliografiske-data/endringer/2021-06-04-produksjonsland.html
----
-
 # BD2: Produksjonsland for filmer
 
 Publisert: 2021-06-04

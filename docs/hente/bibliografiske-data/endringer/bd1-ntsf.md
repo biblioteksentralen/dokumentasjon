@@ -1,10 +1,3 @@
----
-permalink: /hente/bibliografiske-data/endringer/bd1-ntsf
-redirectFrom: 
-  - /hente/bibliografiske-data/endringer/2021-06-04-ntsf
-  - /hente/bibliografiske-data/endringer/2021-06-04-ntsf.html
----
-
 # BD1: Overgang til Norsk tesaurus for sjanger og form (NTSF)
 
 Publisert: 2021-06-04  
