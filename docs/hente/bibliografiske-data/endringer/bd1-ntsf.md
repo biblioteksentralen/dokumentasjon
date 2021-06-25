@@ -1,7 +1,7 @@
 # BD1: Overgang til Norsk tesaurus for sjanger og form (NTSF)
 
 Publisert: 2021-06-04  
-Oppdatert:  2021-06-18
+Oppdatert:  2021-06-25
 
 Vi går over fra å beskrive form/sjanger med begreper fra 
 [Bibbi autoriteter](/hente/autoritetsdata) til å bruke begreper fra 
@@ -41,6 +41,8 @@ Vi har oppdatert alle postene i Bibbi-katalogen og vil eksportere disse til
 [SRU-](/hente/bibliografiske-data/sru) og [OAI-PMH](/hente/bibliografiske-data/oai-pmh)-tjenestene våre samt Bibbi-basene i Mikromarc så snart som mulig (dato kommer). Da vil de også bli høstet inn i MARC 21-fellesbasen i Bibliofil.
 Bare [ta kontakt](/hei.html) hvis du ønsker mer informasjon om dette.
 
+Det kan hende systemleverandøren din kan være behjelpelig med å oppdatere poster.
+
 Mappingtabellen vår gir en oversikt over hvilke termer som har blitt endret, og kan være et hjelpemiddel hvis du vil oppdatere egne poster med søk og erstatt. Tabellen består av 8 kolonner:
 
 - *Bibbi-ID*: Identifikatoren for Bibbi-begrepet vi har brukt tidligere. Det er imidlertid kun de siste årene vi har levert denne med postene (i `$4` i NORMARC og `$0` i MARC 21).
@@ -58,6 +60,8 @@ Versjon 2 av mappingtabellen ble publisert 2021-06-17 med følgende endringer:
 - «Dystopisk (spill)» ble endret til «Dystopier (spill)»
 - Kolonne 6 (*Evt. ny Bibbi-ID*) og 8 (*Kommentar*) ble lagt til.
 
-Det kan hende systemleverandøren din kan være behjelpelig med å oppdatere poster.
+Versjon 3 av mappingtabellen ble publisert 2021-06-25 med følgende endringer:
 
-[⬇ Last ned mappingtabellen (versjon 2)](/vedlegg/2021-06-17-bibbi-ntsf-mapping-v2.xlsx)
+- [«Romantiske filmer»](https://id.bs.no/bibbi/1204057) ble skilt ut fra [«Romantikk»](https://id.nb.no/vocabulary/ntsf/147).
+
+**[⬇ Last ned mappingtabellen (versjon 3)](/vedlegg/2021-06-25-bibbi-ntsf-mapping-v3.xlsx)**
