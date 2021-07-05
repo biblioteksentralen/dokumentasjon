@@ -35,7 +35,7 @@ Tjenesten støtter vanlig paginering (med bruk av `startRecord`), men ikke [pers
 ::: tip Eksempler
 
 - Fritekstsøk i alle indekser: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=Žižek
-- Søk etter isbn: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=dc.identifier=9788293718246
+- Søk etter isbn: https://sru.aja.bs.no/mlnb?operation=searchRetrieve&query=dc.identifier=9788203365133
 
 :::
 
