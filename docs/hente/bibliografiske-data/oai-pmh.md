@@ -33,9 +33,9 @@ Tjenesten har foreløpig ingen sett, men vi legger gjerne til noen hvis det er �
 ### `from` / `until`
 
 Høstingen kan avgrenses til poster som har blitt oppdatert innenfor et bestemt tidsintervall ved hjelp av `from` (startdato) og/eller `until` (sluttdato, inklusiv).
-Eksempel: For å hente ut alle poster som ble oppdatert 1. april 2021:
+Eksempel: For å hente ut alle poster som sist ble oppdatert 1. juni 2021:
 
-> https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=marc21&from=2020-04-01&until=2020-04-01
+> https://oai.aja.bs.no/mlnb?verb=ListRecords&metadataPrefix=marc21&from=2021-06-01&until=2021-06-01
 
 Avgrensningen baserer seg på verdien i `005`-feltet i MARC-posten.
 
