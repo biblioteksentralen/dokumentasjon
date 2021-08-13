@@ -53,7 +53,7 @@ For oversettelser registreres originaltittel fortsatt i 240, men innførselen f�
 ```
 
 Det første 700-feltet er en søkeinngang for det norske uttrykket, mens det andre angir en relasjon til den tyske originalen.
-Vi anser det som vanskelig å utnytte informasjonen i 700-feltene slik den er uttrykt nå uten identifikatorer for verk og uttrykk,
+Vi tror det blir vanskelig å utnytte informasjonen i 700-feltene slik den er uttrykt nå, uten identifikatorer for verk og uttrykk,
 men håper dette kommer på plass på et senere tidspunkt.
 
 ## Eksempel 4: Oversatt manifestasjon, uten hovedansvarshaver
