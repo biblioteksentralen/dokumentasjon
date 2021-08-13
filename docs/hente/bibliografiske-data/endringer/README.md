@@ -5,7 +5,7 @@ Større og mindre endringer annonseres også på e-postlisten bibbisnakk@liste.b
 For å melde deg på lista, send en e-post til Kjersti: <kfm@bibsent.no>).
 
 
-## [Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)](./2021-08-13-verk-og-uttrykk)
+## [Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)](./bd3-verk-og-uttrykk)
 
 2021-08-13
 
@@ -14,7 +14,7 @@ for registrering av foretrukket tittel (240/130) og søkeinnganger for verk og u
 
 [Les mer…](./bd3-verk-og-uttrykk)
 
-## [Produksjonsland for filmer](./2021-06-04-produksjonsland)
+## [Produksjonsland for filmer](./bd2-produksjonsland)
 
 2021-06-04
 
@@ -23,7 +23,7 @@ men går nå over til å registrere dette som en egen egenskap, som blir eksport
 
 [Les mer…](./bd2-produksjonsland)
 
-## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
+## [Overgang til Norsk tesaurus for sjanger og form](./bd1-ntsf)
 
 2021-06-04
 
