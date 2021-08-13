@@ -2,7 +2,7 @@
 
 Publisert: 2021-08-13
 
-Vi kommer til å begynne å registrere informasjon om verk og uttrykk etter NB sine spesifikasjoner ("Veiledning til fullkatalogisering ved bruk av NB_Full bokmal, med RDA-referanser" Versjon 26.05.21), som ikke er publisert, men samsvarer med [Bibsys-konsortiets anbefalinger for autoriserte søkeinnganger for verk og uttrykk](https://rdakatalogisering.unit.no/autoriserte-sokeinnganger-for-verk-og-uttrykk/) (Oppdatert 2021-05-05). Dette fører til to endringer i MARC 21-postene vi sender ut, som vil tre i kraft i september:
+Vi kommer til å begynne å registrere informasjon om verk og uttrykk etter NB sine spesifikasjoner ("Veiledning til fullkatalogisering ved bruk av NB_Full bokmal, med RDA-referanser" Versjon 26.05.21, upublisert), som samsvarer med [Bibsys-konsortiets anbefalinger for autoriserte søkeinnganger for verk og uttrykk](https://rdakatalogisering.unit.no/autoriserte-sokeinnganger-for-verk-og-uttrykk/) (Oppdatert 2021-05-05). Dette fører til to endringer i MARC 21-postene vi sender ut, som vil tre i kraft i september:
 
 1. Vi har tidligere brukt felt 240 kun for å registrere *originaltittel*, men går nå over til å bruke dette for *foretrukket tittel for verk eller uttrykk*. Foretrukket tittel registreres uansett om dokumentet er oversatt fra et annet språk eller ikke. Hvis dokumentet ikke har hovedansvarsgiver, registreres foretrukket tittel i felt 130, ikke i 240.
 
