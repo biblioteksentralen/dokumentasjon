@@ -11,9 +11,9 @@ Vi kommer til å begynne å registrere informasjon om verk og uttrykk etter NB s
 Under følger noen eksempler på hvordan vi vil registrere dette fremover.
 Se [Bibsys-konsortiets anbefalinger](https://rdakatalogisering.unit.no/autoriserte-sokeinnganger-for-verk-og-uttrykk/) for flere eksempler.
 
-## Eksempel 1: Ikke-oversatt manifestasjon, med hovedansvarshaver (100-innførsel)
+## Eksempel 1: Ikke-oversatt manifestasjon, med hovedansvarshaver
 
-Når en post har 100-innførsel, registreres foretrukket tittel for verket i 240. Posten får også en autorisert søkeinngang for verket i 700:
+Når en post har hovedansvarshaver (100-innførsel), registreres foretrukket tittel for verket i 240. Posten får også en autorisert søkeinngang for verket i 700:
 
 ```
 100 1# $a Hall, Kristian $d 1977- $0 (NO-TrBIB)9057090 $4 aut 
@@ -26,9 +26,9 @@ Tidligere ville denne posten ikke fått 240-innførsel.
 
 Merk at ID-en i `700 $0` viser til personen, ikke til verket.
 
-## Eksempel 2: Ikke-oversatt manifestasjon, uten hovedansvarshaver (f.eks. redigert verk, ukjent opphavsperson, …)
+## Eksempel 2: Ikke-oversatt manifestasjon, uten hovedansvarshaver
 
-Når en post ikke har 100-innførsel, registreres foretrukket tittel for verket i 130, ikke i 240:
+Når en post ikke har 100-innførsel (f.eks. redigert verk, ukjent opphavsperson, osv…), registreres foretrukket tittel for verket i 130, ikke i 240:
 
 ```
 +130 10 $a Lek og kreativitet
@@ -39,7 +39,7 @@ Posten får ingen 700-innførsel.
 
 Merk at foretrukket tittel (130 eller 240) aldri inneholder undertittel.
 
-## Eksempel 3: Oversatt manifestasjon, med hovedansvarshaver (100-innførsel)
+## Eksempel 3: Oversatt manifestasjon, med hovedansvarshaver
 
 For oversettelser registreres originaltittel fortsatt i 240, men innførselen får et nytt delfelt `$l` som beskriver
 «språk som skillende element for uttrykket». For en norsk oversettelse av et tysk verk:
@@ -56,7 +56,7 @@ Det første 700-feltet er en søkeinngang for det norske uttrykket, mens det and
 Vi anser det som vanskelig å utnytte informasjonen i 700-feltene slik den er uttrykt nå uten identifikatorer for verk og uttrykk,
 men håper dette kommer på plass på et senere tidspunkt.
 
-## Eksempel 4: Oversatt manifestasjon, uten hovedansvarshaver (f.eks. redigert verk, ukjent opphavsperson, …):
+## Eksempel 4: Oversatt manifestasjon, uten hovedansvarshaver
 
 ```
 130 0# $a Gute nacht, Peppa! $l Norsk
@@ -65,7 +65,7 @@ men håper dette kommer på plass på et senere tidspunkt.
 
 ## Eksempel 5: Flere verk i samme manifestasjon
 
-I dette tilfellet registreres det ingen 240-innførsel, men hvert verk får en 700-innførsel:
+I dette tilfellet registreres det ingen 240-innførsel, men hvert verk får hver sin 700-innførsel:
 
 ```
 100 1# $a Ernaux, Annie $d 1940- $0 (NO-TrBib)90076575 $4 aut 
