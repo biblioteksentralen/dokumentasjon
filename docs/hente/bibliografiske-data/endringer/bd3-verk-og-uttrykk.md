@@ -1,4 +1,4 @@
-# BD3: Registrering av verk/uttrykk i 240/130 + 700
+# BD3: Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)
 
 Publisert: 2021-08-13
 
