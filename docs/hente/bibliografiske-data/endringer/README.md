@@ -12,16 +12,9 @@ For å melde deg på lista, send en e-post til Kjersti: <kfm@bibsent.no>).
 Vi kommer til å begynne å registrere informasjon om verk og uttrykk etter NB sine nye spesifikasjoner
 for registrering av foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk i 700.
 
-[Les mer…](./2021-08-13-verk-og-uttrykk)
+[Les mer…](./bd3-verk-og-uttrykk)
 
-## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
-
-2021-06-04
-
-Bibliografiske poster leveres nå med form/sjanger-begreper fra Norsk tesaurus for sjanger og form (NTSF).
-Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
-
-[Les mer…](./2021-06-04-ntsf)
+[Les mer…](./bd1-ntsf)
 
 
 ## [Produksjonsland for filmer](./2021-06-04-produksjonsland)
@@ -31,6 +24,12 @@ Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
 Vi har tidligere registrert produksjonsland som del av form/sjangerstreng for enkelte filmsjangre,
 men går nå over til å registrere dette som en egen egenskap, som blir eksportert til 257-feltet i MARC 21.
 
-[Les mer…](./2021-06-04-produksjonsland)
+[Les mer…](./bd2-produksjonsland)
 
 
+## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
+
+2021-06-04
+
+Bibliografiske poster leveres nå med form/sjanger-begreper fra Norsk tesaurus for sjanger og form (NTSF).
+Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
