@@ -14,9 +14,6 @@ for registrering av foretrukket tittel (240/130) og søkeinnganger for verk og u
 
 [Les mer…](./bd3-verk-og-uttrykk)
 
-[Les mer…](./bd1-ntsf)
-
-
 ## [Produksjonsland for filmer](./2021-06-04-produksjonsland)
 
 2021-06-04
@@ -26,10 +23,11 @@ men går nå over til å registrere dette som en egen egenskap, som blir eksport
 
 [Les mer…](./bd2-produksjonsland)
 
-
 ## [Overgang til Norsk tesaurus for sjanger og form](./2021-06-04-ntsf)
 
 2021-06-04
 
 Bibliografiske poster leveres nå med form/sjanger-begreper fra Norsk tesaurus for sjanger og form (NTSF).
 Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
+
+[Les mer…](./bd1-ntsf)
