@@ -1,35 +1,42 @@
+---
+id: 1
+sammendrag: 4. juni 2021 begynte vi å levere bibliografiske poster med form/sjanger-begreper fra Norsk tesaurus for sjanger og form (NTSF). Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
+steg:
+  - status: Iverksatt
+    dato: 2021-06-04
+---
 # BD1: Overgang til Norsk tesaurus for sjanger og form (NTSF)
+<BdStatus/>
 
-Publisert: 2021-06-04  
-Oppdatert:  2021-06-25
+Sist oppdatert: 2021-06-25
 
-Vi går over fra å beskrive form/sjanger med begreper fra 
-[Bibbi autoriteter](/hente/autoritetsdata) til å bruke begreper fra 
+Vi går over fra å beskrive form/sjanger med begreper fra
+[Bibbi autoriteter](/hente/autoritetsdata) til å bruke begreper fra
 [Norsk tesaurus for sjanger og form](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/vokabularer-utkast/felles-autoritetsregister-for-personer-og-korporasjoner/) (NTSF).
 
 De fleste begrep fra Bibbi autoriteter har blitt tatt med videre i NTSF, men termene har i mange tilfeller fått ny form.
 I Bibbi autoriteter sto termene i entall, mens termene i NTSF er satt i flertall: for eksempel har «Roman» blitt til «Romaner».
-Noen termer har også blitt skrevet mer ut, for eksempel har Bibbi-termen «Villmark» blitt til «Villmarksfortellinger» i NTSF. 
+Noen termer har også blitt skrevet mer ut, for eksempel har Bibbi-termen «Villmark» blitt til «Villmarksfortellinger» i NTSF.
 
 I noen tilfeller er NTSF mer spesifikk enn Bibbi. Bibbi-begrepet «Dagbøker» ble for eksempel brukt om både faktiske dagbøker og dagbokromaner, mens i NTSF skilles det mellom [«Dagbøker»](https://id.nb.no/vocabulary/ntsf/54) og [«Dagboksfortellinger»](https://id.nb.no/vocabulary/ntsf/536).
 
 I MARC 21 blir form/sjanger-feltene merket med URI fra NTSF i `$0` og vokabularkoden «ntsf» i `$2`:
 
-```
+<marc>
 655 $a Villmarksfortellinger $0 https://id.nb.no/vocabulary/ntsf/326 $2 ntsf
-```
+</marc>
 
 Les mer om utviklingen av tesaurusen og overgangen i en [artikkel på bibliotekeneshus.no](https://www.bibliotekeneshus.no/nasjonal-tesaurus-for-sjanger-og-form-na-er-vi-i-gang/).
 
 ## Film- og dataspillsjangre
 
-Siden Norsk tesaurus for sjanger og form foreløpig er begrenset til litteratursjangre, 
-kommer vi til å fortsette å bruke Bibbi autoriteter for 
+Siden Norsk tesaurus for sjanger og form foreløpig er begrenset til litteratursjangre,
+kommer vi til å fortsette å bruke Bibbi autoriteter for
 [film-](https://id.bs.no/bibbi/group/efbe2d4b-b3de-4194-b069-b764b1333a23).
 og [dataspillsjangre](https://id.bs.no/bibbi/group/a3ac9412-c520-4b1e-b393-ab9b0fc690b7) inntil videre.
 
 Tidligere har vi ikke konsekvent skilt mellom begreper for å beskrive litteratur, film og dataspill,
-vi har f.eks. brukt det samme begrepet «Grøsser» for både litteratur, film og spill, 
+vi har f.eks. brukt det samme begrepet «Grøsser» for både litteratur, film og spill,
 men nå skiller vi mellom NTSF-begrepet [«Grøssere»](https://id.nb.no/vocabulary/ntsf/118) (for skjønnlitteratur) og
 Bibbi-begrepene [«Grøssere (film)»](https://id.bs.no/bibbi/1203108) og [«Grøssere (spill)»](https://id.bs.no/bibbi/1203115) for film og spill.
 
@@ -50,7 +57,7 @@ Mappingtabellen vår gir en oversikt over hvilke termer som har blitt endret, og
 - *Evt. ekstra kriterium*: For tilfeller der ett Bibbi-begrep er erstattet av to eller flere begreper fra NTSF. F.eks. for Bibbi-begrepet «Dystopier» skal film og dataspill ikke overføres til NTSF-begrepet [«Dystopier»](https://id.nb.no/vocabulary/ntsf/68).
 - *Ny term*: Ny term, enten fra NTSF (for litteratur) eller fra Bibbi (for film og dataspill).
 - *NTSF-URI*: URI fra NTSF, hvis den nye termen er fra NTSF.
-- *Evt. ny Bibbi-ID*: Ny Bibbi-ID for begreper som har blitt delt opp i to eller flere begreper (gjelder kun film og spill) 
+- *Evt. ny Bibbi-ID*: Ny Bibbi-ID for begreper som har blitt delt opp i to eller flere begreper (gjelder kun film og spill)
 - *Antall katalogposter*: Hvor mange bibliografiske poster i Bibbi-katalogeen det nye form/sjanger-begrepet har blitt tatt i bruk på.
 - *Kommentar*: Eventuell forklarende kommentar.
 
@@ -64,4 +71,5 @@ Versjon 3 av mappingtabellen ble publisert 2021-06-25 med følgende endringer:
 
 - [«Romantiske filmer»](https://id.bs.no/bibbi/1204057) ble skilt ut fra [«Romantikk»](https://id.nb.no/vocabulary/ntsf/147).
 
-**[⬇ Last ned mappingtabellen (versjon 3)](/vedlegg/2021-06-25-bibbi-ntsf-mapping-v3.xlsx)**
+::: tip Mappingtabell
+**[<font-awesome-icon icon="cloud-download-alt" /> Last ned mappingtabellen (versjon 3)](/vedlegg/2021-06-25-bibbi-ntsf-mapping-v3.xlsx)**

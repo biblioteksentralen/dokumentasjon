@@ -1,5 +1,17 @@
 const { description } = require('../../package')
 const moment = require('moment')
+const glob = require('glob')
+
+const endringer = glob.sync('docs/hente/bibliografiske-data/endringer/*.md')
+  .map(f => f.replace(/^docs/, '').replace('.md', ''))
+  .filter(f => f.split('/').pop().startsWith('bd'))
+  .sort((a,b) => -a.localeCompare(b))
+  //.map(f => ({path: f, children: []})) // skip TOC navigation
+  ;
+
+//'/hente/bibliografiske-data/endringer/bd1-ntsf',
+//'/hente/bibliografiske-data/endringer/bd2-produksjonsland',
+
 
 module.exports = {
 
@@ -31,7 +43,7 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
 
   locales: {
@@ -118,10 +130,8 @@ module.exports = {
               {
                 path: '/hente/bibliografiske-data/endringer/',
                 title: 'Endringer',
-                children: [
-                  '/hente/bibliografiske-data/endringer/bd1-ntsf',
-                  '/hente/bibliografiske-data/endringer/bd2-produksjonsland',
-                ],
+                sidebarDepth: 0,
+                children: endringer,
               },
             ]
           },

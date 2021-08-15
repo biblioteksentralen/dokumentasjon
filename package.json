@@ -16,5 +16,12 @@
   "devDependencies": {
     "moment": "^2.29.1",
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "vue-fontawesome": "^0.0.2"
   }
 }

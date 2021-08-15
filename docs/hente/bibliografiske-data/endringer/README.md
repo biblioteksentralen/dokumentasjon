@@ -1,9 +1,13 @@
 # Endringer
 
-Her beskriver vi større endringer i leveransen av bibliografiske data.
+Her beskriver vi større endringer i beskrivelsen av bibliografiske data (BD) som kan påvirke tjenester som baserer seg på dataene.
+
 Større og mindre endringer annonseres også på e-postlisten bibbisnakk@liste.bibsent.no.
 For å melde deg på lista, send en e-post til Kjersti: <kfm@bibsent.no>).
 
+<BdIndex/>
+
+<!--
 
 ## [Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)](./bd3-verk-og-uttrykk)
 
@@ -31,3 +35,4 @@ Bibliografiske poster leveres nå med form/sjanger-begreper fra Norsk tesaurus f
 Mappingtabell for konvertering fra Bibbi autoriteter er tilgjengelig.
 
 [Les mer…](./bd1-ntsf)
+-->

@@ -4,5 +4,41 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
+h1
+  font-size: 2rem
+
+h2
+  font-size: 1.5rem
+
+h3
+  font-size: 1.2rem
+
 .home .hero img
   max-width 450px!important
+
+.theme-default-content pre[class*="language-"], .theme-default-content .pre-marc
+  padding: 4px 10px
+  font-size: 90%
+  
+  code
+    color: #002b36
+
+div[class*="language-"] .highlight-lines .highlighted
+  background-color: rgba(0,0,0,0.10)
+
+@import '~prismjs/themes/prism-solarizedlight.css'
+
+a.marc-tag-link
+  color: #333
+  cursor: help
+
+a.noraf-link
+  color: #268bd2
+
+.subfield-code
+  color: #002b36
+  font-weight: bold
+
+.theme-default-content code
+  background: #fdf6e3
+  padding: 2px 6px
