@@ -87,3 +87,17 @@ I dette tilfellet registreres ingen 240-innførsel, men hvert verk får to 700-i
 700 12 $a Ernaux, Annie $d 1940- $t Une Femme $l Norsk 
 700 1# $i Oversettelse av: $a Ernaux, Annie $d 1940- $t Une Femme $l Fransk 
 </marc>
+
+## Eksempel 6: Originaltittel med undertittel
+
+Foretrukket tittel inkluderer aldri originaltittel. Hvis undertittel til originaltittel er kjent og meningsbærende kan hele originaltittelen registreres som tittelvariant i 246.
+
+<marc>
+100 1# $a Saunders, Claire $0 (NO-TrBIB)1533887389387 $4 aut
+240 0# $aThe power book $l Norsk
+245 10 $a Boken om makt $b hva er det, hvem har det, og hvorfor? $c skrevet av Claire Saunders, Hazel Songhurst, Georgia Amson-Bradshaw, Minna Salami & Mik Scarlet ; illustrert av Joelle Avelino & David Broadbent ; oversatt av Simran Kaur
+246 1# $iOriginaltittel: $a The power book $b what is it, who has it, and why?
+700 1# $a Saunders, Claire $0 (NO-TrBIB)1533887389387 $aThe power book $l Norsk 
+700 1# $i Oversettelse av: $a Saunders, Claire $0 (NO-TrBIB)1533887389387 $aThe power book $l Engelsk  
+</marc>
+
