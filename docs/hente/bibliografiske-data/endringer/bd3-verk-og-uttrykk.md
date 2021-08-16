@@ -90,7 +90,7 @@ I dette tilfellet registreres ingen 240-innførsel, men hvert verk får to 700-i
 
 ## Eksempel 6: Originaltittel med undertittel
 
-Foretrukket tittel inkluderer aldri originaltittel. Hvis undertittel til originaltittel er kjent og meningsbærende kan hele originaltittelen registreres som tittelvariant i 246.
+Merk at foretrukket tittel aldri inkluderer originaltittel. Hvis undertittel til originaltittel er kjent og meningsbærende, vil hele originaltittelen bli registrert som tittelvariant i 246.
 
 <marc>
 100 1# $a Saunders, Claire $0 (NO-TrBIB)1533887389387 $4 aut
