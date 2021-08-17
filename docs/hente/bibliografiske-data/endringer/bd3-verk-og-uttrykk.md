@@ -58,8 +58,8 @@ vi håper dette kommer på plass i neste omgang.
 Når en post ikke har 100-innførsel (f.eks. redigert verk, ukjent opphavsperson, osv…), registreres foretrukket tittel for verket i 130, ikke i 240:
 
 <marc>
-130 10 $a Lek og kreativitet
-245 10 $a Lek og kreativitet : $b i psykoterapi med barn og ungdom $c Line Indrevoll Stänicke, Unni Tanum Johns og Anders Flækøy Landmark (red.)
+130 0# $a Lek og kreativitet
+245 00 $a Lek og kreativitet : $b i psykoterapi med barn og ungdom $c Line Indrevoll Stänicke, Unni Tanum Johns og Anders Flækøy Landmark (red.)
 </marc>
 
 Uten hovedansvarshaver får posten ingen 700-innførsel.
