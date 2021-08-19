@@ -27,6 +27,6 @@ Eksempel:
 
 ## Fjerning av `$n`
 
-Som følge av [MARC Proposal No. 2020-03](https://loc.gov/marc/mac/2020/2020-03.html) fjernet vi `$n` med virkning fra 1. april 2021.
+Som følge av [MARC Proposal No. 2020-03](https://loc.gov/marc/mac/2020/2020-03.html) fjernet vi `$n` med virkning fra august 2021.
 Vi ønsket egentlig å samtidig fjerne `$a`, siden denne er ment brukt for ressurser som ikke har en URL i `$u`,
 men det var ønske fra Unit (via NB) om å beholde denne.
