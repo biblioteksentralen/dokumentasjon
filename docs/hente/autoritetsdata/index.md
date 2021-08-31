@@ -1,6 +1,6 @@
 # Autoritetsdata
 
-Bibbi autoriteter er Biblioteksentralens samlede autoritetsfil for emneord, personer, korporasjoner og stedsnavn,
+Bibbi-autoriteter er Biblioteksentralens samlede autoritetsfil for emneord, personer, korporasjoner og stedsnavn,
 og snart også verk.
 
 Autoritetsdataene er publisert åpent på [vokabular.bs.no](https://vokabular.bs.no/nb/), sammen med
@@ -8,7 +8,7 @@ overganger til [Norsk WebDewey](https://bibliotekutvikling.no/kunnskapsorganiser
 
 
 <!--
-## Mer om Bibbi autoriteter
+## Mer om Bibbi-autoriteter
 
 - https://bibbinytt.no/emner-i-norske-folke-og-skolebibliotek-personemner/
 - https://bibbinytt.no/emner-i-skjonnlitteraere-sjangre/
