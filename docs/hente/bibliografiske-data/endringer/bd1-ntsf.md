@@ -11,11 +11,11 @@ steg:
 Sist oppdatert: 2021-06-25
 
 Vi går over fra å beskrive form/sjanger med begreper fra
-[Bibbi autoriteter](/hente/autoritetsdata) til å bruke begreper fra
+[Bibbi-autoriteter](/hente/autoritetsdata) til å bruke begreper fra
 [Norsk tesaurus for sjanger og form](https://bibliotekutvikling.no/kunnskapsorganisering/kunnskapsorganisering/vokabularer-utkast/felles-autoritetsregister-for-personer-og-korporasjoner/) (NTSF).
 
-De fleste begrep fra Bibbi autoriteter har blitt tatt med videre i NTSF, men termene har i mange tilfeller fått ny form.
-I Bibbi autoriteter sto termene i entall, mens termene i NTSF er satt i flertall: for eksempel har «Roman» blitt til «Romaner».
+De fleste begrep fra Bibbi-autoriteter har blitt tatt med videre i NTSF, men termene har i mange tilfeller fått ny form.
+I Bibbi-autoriteter sto termene i entall, mens termene i NTSF er satt i flertall: for eksempel har «Roman» blitt til «Romaner».
 Noen termer har også blitt skrevet mer ut, for eksempel har Bibbi-termen «Villmark» blitt til «Villmarksfortellinger» i NTSF.
 
 I noen tilfeller er NTSF mer spesifikk enn Bibbi. Bibbi-begrepet «Dagbøker» ble for eksempel brukt om både faktiske dagbøker og dagbokromaner, mens i NTSF skilles det mellom [«Dagbøker»](https://id.nb.no/vocabulary/ntsf/54) og [«Dagboksfortellinger»](https://id.nb.no/vocabulary/ntsf/536).
@@ -31,7 +31,7 @@ Les mer om utviklingen av tesaurusen og overgangen i en [artikkel på biblioteke
 ## Film- og dataspillsjangre
 
 Siden Norsk tesaurus for sjanger og form foreløpig er begrenset til litteratursjangre,
-kommer vi til å fortsette å bruke Bibbi autoriteter for
+kommer vi til å fortsette å bruke Bibbi-autoriteter for
 [film-](https://id.bs.no/bibbi/group/efbe2d4b-b3de-4194-b069-b764b1333a23).
 og [dataspillsjangre](https://id.bs.no/bibbi/group/a3ac9412-c520-4b1e-b393-ab9b0fc690b7) inntil videre.
 
