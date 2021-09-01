@@ -82,10 +82,10 @@ I dette tilfellet registreres ingen 240-innførsel, men hvert verk får to 700-i
 <marc>
 100 1# $a Ernaux, Annie $d 1940- $0 (NO-TrBib)90076575 $4 aut 
 245 10 $a Far ; $b En kvinne $c Annie Ernaux ; oversatt fra fransk av [henholdsvis] Sissel Lie [og] Henninge Margrethe Solberg 
-700 12 $a Ernaux, Annie $d 1940- $t La place $l Norsk 
-700 1# $i Oversettelse av: $a Ernaux, Annie $d 1940- $t La place $l Fransk 
-700 12 $a Ernaux, Annie $d 1940- $t Une Femme $l Norsk 
-700 1# $i Oversettelse av: $a Ernaux, Annie $d 1940- $t Une Femme $l Fransk 
+700 12 $a Ernaux, Annie $d 1940- $0(NO-TrBIB)90076575 $t La place $l Norsk 
+700 1# $i Oversettelse av: $a Ernaux, Annie $d 1940- $0(NO-TrBIB)90076575 $t La place $l Fransk 
+700 12 $a Ernaux, Annie $d 1940- $0(NO-TrBIB)90076575 $t Une Femme $l Norsk 
+700 1# $i Oversettelse av: $a Ernaux, Annie $d 1940- $0(NO-TrBIB)90076575 $t Une Femme $l Fransk 
 </marc>
 
 ## Eksempel 6: Originaltittel med undertittel
