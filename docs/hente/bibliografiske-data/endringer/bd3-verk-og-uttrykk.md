@@ -1,6 +1,6 @@
 ---
 id: 3
-status: planlagt
+status: iverksatt
 sammendrag: I september 2021 planlegger vi å begynne å ta i bruk NBs nye spesifikasjoner for registrering av foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk i 700.
 steg:
   - status: Annonsert
@@ -8,7 +8,7 @@ steg:
   - status: Planlagt iverksatt
     dato: medio september 2021
   - status: Iverksatt
-    dato: 2021-08-21 med tilbakevirkende kraft
+    dato: 2021-08-21
 ---
 
 # BD3: Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)
