@@ -61,7 +61,7 @@ Når en post ikke har 100-innførsel (f.eks. redigert verk, ukjent opphavsperson
 
 <marc>
 130 0# $a Lek og kreativitet
-245 00 $a Lek og kreativitet : $b i psykoterapi med barn og ungdom $c Line Indrevoll Stänicke, Unni Tanum Johns og Anders Flækøy Landmark (red.)
+245 10 $a Lek og kreativitet : $b i psykoterapi med barn og ungdom $c Line Indrevoll Stänicke, Unni Tanum Johns og Anders Flækøy Landmark (red.)
 </marc>
 
 Uten hovedansvarshaver får posten ingen 700-innførsel.
@@ -74,7 +74,7 @@ Som i eksempel 2 får denne et nytt delfelt `$l` for «språk som skillende elem
 
 <marc>
 130 0# $a Gute nacht, Peppa! $l Norsk
-245 00 $a God natt, Peppa! $c oversatt av V.E. Grønn
+245 10 $a God natt, Peppa! $c oversatt av V.E. Grønn
 </marc>
 
 ## Eksempel 5: Flere verk i samme manifestasjon
