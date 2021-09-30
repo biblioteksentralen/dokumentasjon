@@ -7,6 +7,8 @@ steg:
     dato: 2021-08-16
   - status: Planlagt iverksatt
     dato: medio september 2021
+  - status: Iverksatt
+    dato: 2021-08-21 med tilbakevirkende kraft
 ---
 
 # BD3: Foretrukket tittel (240/130) og søkeinnganger for verk og uttrykk (700)
