@@ -45,7 +45,7 @@ For oversettelser registreres originaltittel fortsatt i 240, men innf√∏rselen f√
 
 <marc>
 100 1# $a Roth, Joseph $d 1894-1939 $0 (NO-TrBIB)90090033 $4 aut
-240 10 $a Das falsche Gewicht $l Norsk 
+240 14 $a Das falsche Gewicht $l Norsk 
 245 14 $a Den falske vekten $b historien om en justermester $c Joseph Roth ; oversatt av Stein Dahl Mathisen
 700 1# $a Roth, Joseph $d 1894-1939 $0 (NO-TrBIB)90090033 $t Das falsche Gewicht $l Norsk 
 700 1# $i Oversettelse av: $a Roth, Joseph $d 1894-1939 $0 (NO-TrBIB)90090033 $t Das falsche Gewicht $l Tysk 
