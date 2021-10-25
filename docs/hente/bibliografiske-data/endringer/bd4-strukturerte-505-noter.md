@@ -15,7 +15,7 @@ For å levere poster i tråd med dette har vi som midlertidlig løsning:
 1. slått av utsendelse av 700-analytter i `marc21`-formatet. 700-analytter vil fortsatt bli levert med legacy-formatet `marc21nor` (marc21 med 019).
 2. begynt å generere strukturerte 505-noter som kan brukes som søkeinngang for novelletitlene.
 
-På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle.
+På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle, og vi kommer da å levere 700-analytter med foretrukket tittel.
 
 ## Eksempel 1: Novellesamling med enkeltforfatter
 
