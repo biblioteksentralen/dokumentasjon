@@ -1,15 +1,21 @@
 ---
 id: 4
 status: iverksatt
-sammendrag: Det genereres nå strukturerte 505-noter fra novelleanalytter registrert med manifestasjonstittel i 700.
+sammendrag: Novelleanalytter i 700-felt erstattes av strukturerte 505-noter
 steg:
   - status: Iverksatt
     dato: 2021-10-25
 ---
-# BD4: 505-note genereres automatisk fra analyttinnførsler i 700
+# BD4: Novelleanalytter flyttes fra 700 til 505
 <BdStatus/>
 
-Vi har i mange år lagd novelleanalytter på manifestasjonstittel; siden 700-innførsler nå kun skal inneholde foretrukket tittel i henhold til Nasjonalbibliotekets standarder RDA i marc21 er ikke denne løsningen lenger i tråd med gjeldende standard. Vi er fortsatt i arbeid med verksregisteret og skal etter hvert utvide det til novellesamlinger. Som en midlertidlig løsning har vi begynt å generere strukturerte 505-noter som kan brukes som søkeinngang for manifestasjonstittel. Vi har slått av utsendelse av 700-analytter i marc21-formatet, men 700-analytter med manifestasjonstittel medfølger fortsatt marc21nor (marc21 med 019) intil videre.
+Vi har i mange år levert novelleanalytter på manifestasjonstittel i 700-felt, men Nasjonalbiblioteket ønsker nå at tittelinførsler i 700-felt kun skal brukes for [autoriserte søkeinnganger for verk og uttrykk](https://rdakatalogisering.unit.no/70x-75x-bi-innforsler/).
+For å levere poster i tråd med dette har vi som midlertidlig løsning:
+
+1. slått av utsendelse av 700-analytter i `marc21`-formatet. 700-analytter vil fortsatt bli levert med legacy-formatet `marc21nor` (marc21 med 019).
+2. begynt å generere strukturerte 505-noter som kan brukes som søkeinngang for novelletitlene.
+
+På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle.
 
 ## Eksempel 1: Novellesamling med enkeltforfatter
 
