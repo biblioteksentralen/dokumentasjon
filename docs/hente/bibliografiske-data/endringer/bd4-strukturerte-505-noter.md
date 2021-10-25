@@ -1,7 +1,7 @@
 ---
 id: 4
 status: iverksatt
-sammendrag: Novelleanalytter i 700-felt erstattes av strukturerte 505-noter
+sammendrag: I oktober 2021 ble novelleanalytter flyttet fra 700-innførsler til strukturerte 505-noter.
 steg:
   - status: Iverksatt
     dato: 2021-10-25
