@@ -9,13 +9,13 @@ steg:
 # BD4: Novelleanalytter flyttes fra 700 til 505
 <BdStatus/>
 
-Vi har i mange år levert novelleanalytter på manifestasjonstittel i 700-felt, men Nasjonalbiblioteket ønsker nå at tittelinførsler i 700-felt kun skal brukes for [autoriserte søkeinnganger for verk og uttrykk](https://rdakatalogisering.unit.no/70x-75x-bi-innforsler/).
+Vi har i mange år levert novelleanalytter basert på manifestasjonstittel i 700-felt, men Nasjonalbiblioteket ønsker nå at tittelinførsler i 700-felt kun skal brukes for [autoriserte søkeinnganger for verk og uttrykk](/hente/bibliografiske-data/endringer/bd3-verk-og-uttrykk.html).
 For å levere poster i tråd med dette har vi som midlertidlig løsning:
 
-1. slått av utsendelse av 700-analytter i `marc21`-formatet. 700-analytter vil fortsatt bli levert med legacy-formatet `marc21nor` (marc21 med 019).
+1. slått av utsendelse av 700-analytter i `marc21`-formatet inntil videre. De vil fortsatt bli levert med legacy-formatet `marc21nor` (marc21 med 019).
 2. begynt å generere strukturerte 505-noter som kan brukes som søkeinngang for novelletitlene.
 
-På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle, og vi kommer da å levere 700-analytter med foretrukket tittel.
+På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle. Vi vil da begynne å levere 700-analytter for noveller basert på foretrukket tittel for verk (se eksempel 3 under). Manifestasjonstittel vil kun bli registrert i 505.
 
 ## Eksempel 1: Novellesamling med enkeltforfatter
 
@@ -34,4 +34,21 @@ For antologier, samlinger av noveller med flere ulike forfattere der hver enkelt
 <marc>
 *245 00 $a Og alle ting vert nye $b nye nynorske noveller
 *505 00 $t Alvar og Marija / $r Rakel Solstad -- $t Av fjell er du komen / $r Erlend Kaasa -- $t Der heile verda er / $r Annlaug Selstø -- $t Og alle ting vert nye / $r Susanne Skogstad -- $t Stein, gras, pinnar / $r Anne Lise Frøkedal -- $t Bortebuar / $r Inger Bråtveit -- $t Den litle med krøllar / $r Oda Malmin -- $t Ein av desse dagane / $r Tore Kvæven -- $t Heim / $r Aina Basso
+</marc>
+
+## Eksempel 3: Oversatt novellesamling med foretrukket tittel-analytter i 700 (planlagt) 
+
+Når noveller har blitt inkludert i verksregisteret vårt, kommer vi til å begynne å leverere analytter med foretrukket tittel for verk. I dette eksempelet, en oversatt novellesamling, blir da de norske titelene – manifestasjonstitlene til novellene – registrert i `505 $t`, og det lages to 700-innførsler, én for uttrykk og én for verk, for hver novelle.
+
+<marc>
+*100 1# $a Riordan, Rick $d 1964-$0(NO-TrBIB)9068118 $4 aut $8 1
+*240 00 $a Demigods & magicians
+*245 10 $a Halvguder og magikere $b Percy og Annabeth møter Carter og Sadie Kane $c Rick Riordan ; oversatt av Torleif Sjøgren-Erichsen
+*505 00 $t Sobeks sønn -- $t Serapis' stav -- $t Ptolemaios' krone
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The son of Sobek $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The son of Sobek $l Engelsk
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The staff of Serapis $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The staff of Serapis $l Engelsk
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The crown of Ptolemy $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The crown of Ptolemy $l Engelsk
 </marc>
