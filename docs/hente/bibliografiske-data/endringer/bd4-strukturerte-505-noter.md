@@ -22,10 +22,9 @@ På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvik
 For novellesamlinger med én enkeltforfatter eller flere forfattere med felles ansvar for hele samlingen registreres 505-noten med titler uten forfatterangivelse:
 
 <marc>
-*1001#$aNakajima, Kyoko$0(NO-TrBIB)1634286304949$4aut$811$81
-*24510$aThings remembered and things forgotten$cKyoko Nakajima ; translated from the Japanese by Ian McCullough MacDonald and Ginny Tapley Takemori
-
-*50500$tThings remembered and things forgotten --$tWhen my wife was a shiitake --$tThe life story of a sewing machine --$tGlobal positioning system --$tKirara's paper plane --$tA special day --$tThe pet civet --$tChildhood friends --$tThe last obon
+*100 1# $a Nakajima, Kyoko $0 (NO-TrBIB)1634286304949 $4 aut $8 11 $8 1
+*245 10 $a Things remembered and things forgotten $c Kyoko Nakajima ; translated from the Japanese by Ian McCullough MacDonald and Ginny Tapley Takemori
+*505 00 $t Things remembered and things forgotten -- $t When my wife was a shiitake -- $t The life story of a sewing machine -- $t Global positioning system -- $t Kirara's paper plane -- $t A special day -- $t The pet civet -- $t Childhood friends -- $t The last obon
 </marc>
 
 ## Eksempel 2: Novelleantologi med flere forfattere
@@ -33,7 +32,6 @@ For novellesamlinger med én enkeltforfatter eller flere forfattere med felles a
 For antologier, samlinger av noveller med flere ulike forfattere der hver enkeltforfatter har ansvar kun for sin "egen" novelle registreres 505-noten med tittel og forfatterangivelse:
 
 <marc>
-*24500$aOg alle ting vert nye$bnye nynorske noveller
-
-*50500$tAlvar og Marija /$rRakel Solstad --$tAv fjell er du komen /$rErlend Kaasa --$tDer heile verda er /$rAnnlaug Selstø --$tOg alle ting vert nye /$rSusanne Skogstad --$tStein, gras, pinnar /$rAnne Lise Frøkedal --$tBortebuar /$rInger Bråtveit --$tDen litle med krøllar /$rOda Malmin --$tEin av desse dagane /$rTore Kvæven --$tHeim /$rAina Basso
+*245 00 $a Og alle ting vert nye $b nye nynorske noveller
+*505 00 $t Alvar og Marija / $r Rakel Solstad -- $t Av fjell er du komen / $r Erlend Kaasa -- $t Der heile verda er / $r Annlaug Selstø -- $t Og alle ting vert nye / $r Susanne Skogstad -- $t Stein, gras, pinnar / $r Anne Lise Frøkedal -- $t Bortebuar / $r Inger Bråtveit -- $t Den litle med krøllar / $r Oda Malmin -- $t Ein av desse dagane / $r Tore Kvæven -- $t Heim / $r Aina Basso
 </marc>
