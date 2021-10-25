@@ -15,7 +15,7 @@ For å levere poster i tråd med dette har vi som midlertidlig løsning:
 1. slått av utsendelse av 700-analytter i `marc21`-formatet. 700-analytter vil fortsatt bli levert med legacy-formatet `marc21nor` (marc21 med 019).
 2. begynt å generere strukturerte 505-noter som kan brukes som søkeinngang for novelletitlene.
 
-På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle, og vi kommer da å levere 700-analytter med foretrukket tittel.
+På sikt vil noveller bli inkludert i verksregisteret som vi holder på å utvikle, og vi kommer da å levere 700-analytter med foretrukket tittel. Det innebærer da at manifestasjonstittel kun vil bli registrert i 505.
 
 ## Eksempel 1: Novellesamling med enkeltforfatter
 
@@ -34,4 +34,21 @@ For antologier, samlinger av noveller med flere ulike forfattere der hver enkelt
 <marc>
 *245 00 $a Og alle ting vert nye $b nye nynorske noveller
 *505 00 $t Alvar og Marija / $r Rakel Solstad -- $t Av fjell er du komen / $r Erlend Kaasa -- $t Der heile verda er / $r Annlaug Selstø -- $t Og alle ting vert nye / $r Susanne Skogstad -- $t Stein, gras, pinnar / $r Anne Lise Frøkedal -- $t Bortebuar / $r Inger Bråtveit -- $t Den litle med krøllar / $r Oda Malmin -- $t Ein av desse dagane / $r Tore Kvæven -- $t Heim / $r Aina Basso
+</marc>
+
+## Eksempel 3: Oversatt novellesamling med foretrukket tittel-analytter i 700 (planert) 
+
+Når noveller har blitt inkludert i verksregisteret hos oss kommer vi å begynne å leverere analytter med foretrukket tittel slik som ønsket av Nasjonalbiblioteket. I dette eksempelet, en oversatt novellesamling, blir da de norske titelene -  manifestasjonstitlene på novellene - registrert i 500 $t, og det lages to 700-innførsler, en for uttrykk og en for verk, på hver novelle.
+
+<marc>
+*1001#$aRiordan, Rick$d1964-$0(NO-TrBIB)9068118$4aut$81
+*24000$aDemigods & magicians
+*24510$aHalvguder og magikere$bPercy og Annabeth møter Carter og Sadie Kane$cRick Riordan ; oversatt av Torleif Sjøgren-Erichsen
+*50500$tSobeks sønn --$tSerapis' stav --$tPtolemaios' krone
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The son of Sobek $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The son of Sobek $l Engelsk
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The staff of Serapis $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The staff of Serapis $l Engelsk
+*700 12 $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The crown of Ptolemy $l Norsk
+*700 1# $i Oversettelse av: $a Riordan, Rick $d 1964- $0 (NO-TrBIB)9068118 $t The crown of Ptolemy $l Engelsk
 </marc>
