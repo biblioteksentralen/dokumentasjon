@@ -40,7 +40,7 @@ Merk at ID-en i `700 $0` viser til personen, ikke til verket.
 
 ## Eksempel 2: Oversatt manifestasjon, med hovedansvarshaver
 
-For oversettelser registreres originaltittel fortsatt i 240, men innførselen får et nytt delfelt `$l` som beskriver
+For oversettelser er foretrukket tittel som regel samme som originaltittel. Foretrukket tittel registreres i 240, men innførselen får et delfelt `$l` som beskriver
 «språk som skillende element for uttrykket». For en norsk oversettelse av et tysk verk:
 
 <marc>
