@@ -116,7 +116,7 @@ Hvor mange tegn som kan avvike ([Levenshtein-avstanden](https://en.wikipedia.org
 
 I søketermen gir `?` treff i ett hvilket som helst tegn
 (<sru-example base="mlnb" query="dc.title = &quot;h?ndverk&quot;" /> gir f.eks. treff i både «håndverk» og «handverk»),
-mens `*` gir treff i 0 eller flere viøkårlige tegn (eks: <sru-example base="mlnb" query="dc.title = &quot;bærekraft*&quot;" />).
+mens `*` gir treff i 0 eller flere vilkårlige tegn (eks: <sru-example base="mlnb" query="dc.title = &quot;bærekraft*&quot;" />).
 Merk at søketermen ikke kan *begynne* med jokertegn.
 
 
