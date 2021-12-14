@@ -73,3 +73,5 @@ Versjon 3 av mappingtabellen ble publisert 2021-06-25 med følgende endringer:
 
 ::: tip Mappingtabell
 **[<font-awesome-icon icon="cloud-download-alt" /> Last ned mappingtabellen (versjon 3)](/vedlegg/2021-06-25-bibbi-ntsf-mapping-v3.xlsx)**
+
+🛸
