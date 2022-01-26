@@ -1,7 +1,7 @@
 ---
 id: 5
 status: Planlagt iverksatt
-sammendrag: I januar 2022 planlegger vi å ta i bruk 662-feltet for å .
+sammendrag: I februar 2022 planlegger vi å ta i bruk 662-feltet for å uttrykke hierarkisk struktur i geografiske emner.
 steg:
   - status: Annonsert
     dato: 2021-01-24
