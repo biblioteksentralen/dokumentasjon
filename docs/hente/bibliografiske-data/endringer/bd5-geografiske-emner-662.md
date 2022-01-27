@@ -13,45 +13,46 @@ steg:
 # BD5: Hierarkiske stedsemneord i 662
 <BdStatus/>
 
-Nasjonalbiblioteket har besluttet å begynne å registrere hierarkiske stedsemneord i marc-felt 662. I samband med det må vi også oppdatere praksis for hvordan vi registrerer stedsemner i 651, da vår praksis med å registere stedsemner med hierarkisk struktur i 651 ikke er korrekt i henhold til marc21.
+Nasjonalbiblioteket har besluttet at hierarkiske stedsemneord skal registreres i MARC-felt 662. I samband med at vi begynner å registrere i 662 er vi også nødt til å oppdatere praksis for hvordan vi registrerer stedsemner i 651, da vår praksis med å registere stedsemner med hierarkisk struktur i 651 ikke er korrekt i henhold til MARC 21.
 
-## 662-delfelt
+## 662 - Hierarkisk stedsemneord
 
-662 - Subject Added Entry-Hierarchical Place Name 
-$a - Land eller overordnet geografisk entitet (R)
-$b - Fylke eller annen førsteordens formell inndeling (NR)
-$c - Kommune eller annen andreordens formell inndeling (R)
-$d - By eller tettsted (NR)
-$f - Del/område i en by eller tettsted (R). 
-$g - Geografiske områder som ikke representerer noen formell inndeling (R)
-$h - Utenomjordisk område 🛸 (R)
-$0 - Identifikator for emneord (R)
-$1 - Real World Object URI (R)
-$2 - Angivelse av kilde for emneord (NR)
-$8 - Feltlenke (R)
+Vi tar i bruk 662 med følgende delfelt:
+
+* `$a` - Land eller overordnet geografisk entitet (R)
+* `$b` - Fylke eller annen førsteordens administrativ inndeling (NR)
+* `$c` - Kommune eller annen andreordens administrativ inndeling (R)
+* `$d` - By eller tettsted (NR)
+* `$f` - Del/område i en by eller tettsted, f.eks. bydel, nabolag, park (R).
+* `$g` - Ikke-administrativ geografisk entitet, f.eks. elv, innsjø, øy, fjell (R)
+* `$h` - Utenomjordisk område 🪐 (R)
+* `$0` - Identifikator for autoritetspost i Bibbi (R)
+* `$1` - URI som identifiserer den beskrevne entiteten (fremtidig). (R)
+* `$2` - Kilde/vokabularkode. Vi bruker «bibbi». (NR)
+* `$8` - Feltlenke. Vi bruker dette for å koble 651 og 662. (R)
 
 ## Endringer i 651
 
-Dagens praksis for geografiske emneord er å legge overordnet geografisk enhet i $a og Geografiske underavdelinger i $z:
+Dagens praksis for geografiske emneord er å legge overordnet geografisk enhet i `$a` og geografiske underavdelinger i `$z`:
 
 <marc>
 651 #7 $a Larvik $z Helgeroa $0 (NO-OsBA)1162699 $2 bibbi $9 nob
 </marc>
 
-Dette er en videreføring av Normarc-standarder og er dessverre ikke korrekt i henhold til marc21. Nasjonalbiblioteket har derfor pålagt oss å endre praksis her. Ny praksis blir å legge den geografiske enheten for emnet i $a, med den videre geografiske enheten tilføyd i parentese:
+Dette er en videreføring av NORMARC-standarder og er dessverre ikke korrekt i henhold til MARC 21. Nasjonalbiblioteket har derfor pålagt oss å endre praksis her. Ny praksis blir å legge den geografiske enheten for emnet i `$a`, med den videre geografiske enheten tilføyd i parentese:
 
 <marc>
 651 #7 $a Helgeroa (Larvik) $0 (NO-OsBA)1162699 $2 bibbi $9 nob
 </marc>
 
-## Eksempel
+## Eksempler på ny praksis
 
 <marc>
-651 #7 $a Helgeroa (Larvik) $0 (NO-OsBA)1162699 $2 bibbi $9 nob
-662 ## $a Norge $b Vestfold og Telemark $c Larvik $d Helgeroa $0 (NO-OsBA)9999999 $2 bibbi $9 nob
+651 #7 $a Helgeroa (Larvik) $0 (NO-OsBA)1162699 $2 bibbi $9 nob $8 1\u
+662 ## $a Norge $b Vestfold og Telemark $c Larvik $d Helgeroa $0 (NO-OsBA)9999999 $2 bibbi $9 nob $8 1\u
 </marc>
 
 <marc>
-651 #7 $a Møhlenpris (Bergen) $x Historie $0 (NO-OsBA)1149008$2bibbi$9nob
-662 ## $a Norge $b Vestland $c Bergen $d Bergen $f Møhlenpris $0 (NO-OsBA)9999999 $2 bibbi $9 nob
+651 #7 $a Møhlenpris (Bergen) $x Historie $0 (NO-OsBA)1149008 $2 bibbi $9 nob $8 1\u
+662 ## $a Norge $b Vestland $c Bergen $d Bergen $f Møhlenpris $0 (NO-OsBA)9999999 $2 bibbi $9 nob $8 1\u
 </marc>
