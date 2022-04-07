@@ -2,8 +2,8 @@
 
 Her beskriver vi større endringer i beskrivelsen av bibliografiske data (BD) som kan påvirke tjenester som baserer seg på dataene.
 
-Større og mindre endringer annonseres også på e-postlisten bibbisnakk@liste.bibsent.no.
-For å melde deg på lista, send en e-post til Kjersti: <kfm@bibsent.no>).
+Større og mindre endringer annonseres også på e-postlisten bibbisnakk@liste.bibsent.no .
+For å melde deg på lista, send en e-post til bibbi@bibsent.no .
 
 <BdIndex/>
 
