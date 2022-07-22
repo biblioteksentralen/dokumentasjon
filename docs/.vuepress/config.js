@@ -127,6 +127,7 @@ module.exports = {
               '/hente/bibliografiske-data/mlnb',
               '/hente/bibliografiske-data/oai-pmh',
               '/hente/bibliografiske-data/sru',
+              '/hente/bibliografiske-data/rest/',
               {
                 path: '/hente/bibliografiske-data/endringer/',
                 title: 'Endringer',
