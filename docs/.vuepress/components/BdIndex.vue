@@ -17,7 +17,7 @@ export default {
   computed: {
     pages() {
       return this.$site.pages
-        .filter(page => page.path.startsWith('/hente/bibliografiske-data/endringer/bd'))
+        .filter(page => page.path.startsWith('/bibliografiske-data/endringer/bd'))
         .sort((a, b) => b.frontmatter.id - a.frontmatter.id)
         .map(page => {
           page.dato_oppstart_short = page.frontmatter.dato_oppstart ? page.frontmatter.dato_oppstart.substr(0, 10) : '(mangler dato)'

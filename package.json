@@ -1,13 +1,10 @@
 {
-  "name": "aja-doc",
+  "name": "dokumentasjon",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "authors": {
-    "name": "Dan Michael Heggø",
-    "email": "dan.michael.heggo@bibsent.no"
-  },
-  "repository": "https://gitlab.com/bibsent/aja-doc",
+  "author": "Biblioteksentralen",
+  "repository": "https://gitlab.com/biblioteksentralen/dokumentasjon",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

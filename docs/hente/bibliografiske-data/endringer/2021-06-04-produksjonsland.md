@@ -1,1 +1,1 @@
-<redirect to="/bd2-produksjonsland.html"/>
+<redirect to="/bibliografiske-data/endringer/b2-produksjonsland.html"/>

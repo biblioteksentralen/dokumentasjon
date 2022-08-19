@@ -6,12 +6,15 @@ images:
     alt: Illustrasjonsbilde - menneske som leer
   - src: ./undraw_Master_plan_re_jvit.svg
     alt: Illustrasjonsbilde - menneske som tenker
-tagline: Dokumentasjon for datatjenester fra Biblioteksentralens metadatabrønn Ája
+tagline:  Teknisk dokumentasjon for tjenester og programmeringsgrensesnitt fra Biblioteksentralen
 actions:
-  - text: Hente data →
-    link: /hente/
-  - text: Levere  data →
-    link: /levere/
+  - text: Bibliografiske data →
+    link: /bibliografiske-data/
+  - text: Autoritetsdata →
+    link: /autoritetsdata/
+  - text: Omslagsbilder →
+    link: /omslagsbilder.html
+
 # features:
 #   - title: Feature 1 Title
 #     details: Feature 1 Description

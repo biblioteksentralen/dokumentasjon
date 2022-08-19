@@ -10,7 +10,7 @@ export default {
   },
   mounted () {
     console.log("[Redirecting]", this.to);
-    document.location = this.to;
+    window.location.replace(this.to);
   },
 }
 </script>

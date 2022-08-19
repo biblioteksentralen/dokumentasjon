@@ -1,4 +1,8 @@
-# REST-API
+---
+title: REST-API for metadata
+---
+
+# REST-API for metadata
 
 Metadata for alle utgivelser katalogisert av Biblioteksentralen er tilgjengelig fra et åpent REST-API,
 som tilbyr JSON-data etter et skjema basert på [Schema.org](https://schema.org/).
